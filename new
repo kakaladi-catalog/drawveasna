@@ -1,0 +1,250 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   function toggleDetails(id) {
+     const details = document.getElementById(id);
+     if (details.style.display === "none") {
+       details.style.display = "table-row-group";
+     } else {
+       details.style.display = "none";
+     }
+   }
+  </script>
+ </head>
+ <body class="bg-white p-4">
+  <div class="overflow-x-auto">
+   <table class="min-w-full border-collapse border border-gray-300">
+    <thead>
+     <tr class="bg-green-200">
+      <th class="border border-gray-300 p-2">
+       <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('general-style')">
+        General Style
+       </button>
+      </th>
+      <th class="border border-gray-300 p-2">
+       No
+      </th>
+      <th class="border border-gray-300 p-2">
+       Style Name
+      </th>
+      <th class="border border-gray-300 p-2">
+       young woman
+      </th>
+      <th class="border border-gray-300 p-2">
+       Prompt
+      </th>
+     </tr>
+    </thead>
+    <tbody id="general-style" style="display: none;">
+     <tr class="bg-green-100">
+      <td class="border border-gray-300 p-2" rowspan="1">
+       <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('outfit-style')">
+        Outfit style
+       </button>
+      </td>
+      <td class="border border-gray-300 p-2">
+       1
+      </td>
+      <td class="border border-gray-300 p-2">
+       Nightwear sets1
+      </td>
+      <td class="border border-gray-300 p-2">
+       <img alt="young woman in lace bralette and silk pajama shorts" height="50" src="https://storage.googleapis.com/a1aa/image/yZFGTTyL7hN1aChPmMmxxtPT0tfQVuDKUG8KvrJlED4.jpg" width="50"/>
+      </td>
+      <td class="border border-gray-300 p-2">
+       Lace Bralette + Silk Pajama Shorts
+      </td>
+     </tr>
+     <tbody id="outfit-style" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('post-style')">
+         Post Style
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        2
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets2
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in satin slip dress and kimono robe" height="50" src="https://storage.googleapis.com/a1aa/image/JUxhvOOGWCxue-UcKKI1Q6Wk05mhrbM6Ol9gRr6N6p4.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Satin Slip Dress + Kimono Robe
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="post-style" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('expression')">
+         expression
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        3
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets3
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in mesh bodysuit and high-waisted panties" height="50" src="https://storage.googleapis.com/a1aa/image/9f8JoulBREwjq3ql0bfAQvgOKWeEsqffhuzfAbpCLNc.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Mesh Bodysuit + High-Waisted Panties
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="expression" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('architectures')">
+         Architectures
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        4
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets4
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in corset top and lace thong" height="50" src="https://storage.googleapis.com/a1aa/image/VaXuIqG0tRGpyxKRDaws-t2q6J0xFhEc_k0-fbVEy84.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Corset Top + Lace Thong
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="architectures" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('animation-style')">
+         Animation Style
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        5
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets5
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in velvet chemise and sheer robe" height="50" src="https://storage.googleapis.com/a1aa/image/vla3dYjI7FcxRerVseKmgtXAUrYyOR8HwmtOe7ZXbyw.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Velvet Chemise + Sheer Robe
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="animation-style" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('light-effect')">
+         Light Effect
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        6
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets6
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in silk camisole and lace trim shorts" height="50" src="https://storage.googleapis.com/a1aa/image/up-wyNlj2wIAUeFVZZNNloii1qW6QN763Shd3nm4lqE.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Silk Camisole + Lace Trim Shorts
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="light-effect" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('photography-style')">
+         Photography Style
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        7
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets7
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in tulle nightgown and lace panties" height="50" src="https://storage.googleapis.com/a1aa/image/gOT6h1Aa9o_dn29DAVrhQpiIUOSIaUKVA0i_bg7kp8U.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Tulle Nightgown + Lace Panties
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="photography-style" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('hairstyles')">
+         Hairstyles
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        8
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets8
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in satin pajama set and feather slippers" height="50" src="https://storage.googleapis.com/a1aa/image/AYiCqqcJg0z2OxUBS1aEMecUmiTDuhS9MQj7Yx0wXSg.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Satin Pajama Set + Feather Slippers
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="hairstyles" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+        <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="toggleDetails('photography-places')">
+         Photography Places
+        </button>
+       </td>
+       <td class="border border-gray-300 p-2">
+        9
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets9
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in lace teddy and silk skirt" height="50" src="https://storage.googleapis.com/a1aa/image/n66Q66sIzRCsJjvySHBaOgMd6wrfIWXrU-h6VB-iMV4.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Lace Teddy + Silk Skirt
+       </td>
+      </tr>
+     </tbody>
+     <tbody id="photography-places" style="display: none;">
+      <tr class="bg-green-100">
+       <td class="border border-gray-300 p-2" rowspan="1">
+       </td>
+       <td class="border border-gray-300 p-2">
+        10
+       </td>
+       <td class="border border-gray-300 p-2">
+        Nightwear sets10
+       </td>
+       <td class="border border-gray-300 p-2">
+        <img alt="young woman in off-shoulder babydoll and satin panties" height="50" src="https://storage.googleapis.com/a1aa/image/zxLYNEdkuY5rqNAWRtRvnpJe2-wpvqgZzXzA8UTg-v0.jpg" width="50"/>
+       </td>
+       <td class="border border-gray-300 p-2">
+        Off-Shoulder Babydoll + Satin Panties
+       </td>
+      </tr>
+     </tbody>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>
