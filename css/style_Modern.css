@@ -3,14 +3,22 @@ body {
     padding: 1rem;
     margin: 0;
     font-family: 'Orbitron', sans-serif; /* Futuristic font */
-    background-image: url('https://img.freepik.com/premium-photo/cyber-city-augmented-reality-hightech-fashion-digital-smartphone-phone-wallpaper-generative-ai_918839-267.jpg');
+    background-image: url('cybercity.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     animation: magicalBackground 15s ease-in-out infinite;
     height: 100%;
 }
-
+/* emotion table */
+.custom-flex {
+    display: flex;
+    flex-direction: column;
+}
+.data-table {
+    margin-bottom: 1rem; /* Add some space below the table */
+}
+/* emotion table */
 .generate-text {
     background-color: rgba(0, 128, 128, 0.8); /* Dark teal */
     padding: 0.25rem 0.5rem;
