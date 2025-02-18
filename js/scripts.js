@@ -1803,7 +1803,7 @@ const data = [
 },
 {
     styleName: "Furniture Design",
-    imageSrc : "images/IBEwyeZlWSSJ7fzD3Qhvx-sgedWdqXVaW7GdOc42iak.jpg",
+    imageSrc : "https://kakaladi-catalog.github.io/drawveasna/images/IBEwyeZlWSSJ7fzD3Qhvx-sgedWdqXVaW7GdOc42iak.jpg",
     prompt: "Furniture design, {Tiger}-shaped, artistic style, creative concept, functional decor, unique craftsmanship, whimsical form, Located in the bedroom."
 },
 {
@@ -2970,6 +2970,810 @@ const data = [
     styleName: "Prismatic",
     imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/oeiNZfuD9Pn0wb3nSUH-2zQMEGAXB8RMgfU55-fXDB4.jpg",
     prompt: "Prismatic, light refraction, rainbow effect, colorful"
+},
+
+
+// emotional styles 😀😁😂
+
+{
+    styleName: "Exaggerated Laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/_rNaUoMSHAn9GpDvmPj7FxgAXY_CmHQJCndcx8CoYhY.jpg",
+    prompt: "Exaggerated Laughter, Wide-open mouth, eyes squeezed shut, uncontrolled giggles"
+},
+{
+    styleName: "Rolling Laughing",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/4ZBeO3X7R6yC6fuH2BAAIV8zi-_trvL_yXbKuQh8ATE.jpg",
+    prompt: "Rolling Laughing, Body sprawled out, tears of joy, clutching stomach"
+},
+{
+    styleName: "Comically Surprised",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/WpNVNChlyVBsyOvP2HifRJ0fIQuK9hQWVUQMPd9W4x0.jpg",
+    prompt: "Comically Surprised, exophthalmos, mouth agape, exaggerated gasp"
+},
+{
+    styleName: "Belly Laugh",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/7BJeVNvbgfFP1Q_tyMPOdO03MVFFEhsHR28O_mDse34.jpg",
+    prompt: "Belly Laugh, Shaking with laughter, holding sides, hearty chuckles"
+},
+{
+    styleName: "Playful Winking",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/k92LZbl_eAR_l-YUDLoynKcAuxa2CLNA-2KLANIFyhs.jpg",
+    prompt: "Playful Winking, Over-the-top wink, cheeky smirk, exaggerated tongue-out"
+},
+{
+    styleName: "Goofi Face",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/xmWuhYZA2Kq74KMdGyWNlx1fgylnghPwSE5lArKNBeo.jpg",
+    prompt: "Goofi Face, Crossed eyes, lopsided grin, exaggerated facial contortions"
+},
+{
+    styleName: "Zany Smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/gzSN8HGEgwOINoRpRAYTrw6_svhcAw65TjFxGbnqZUE.jpg",
+    prompt: "Zany Smile, Wide, crooked grin, sparkling eyes, mischievous expression"
+},
+{
+    styleName: "Bursting with Laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/hMBlGpQula6wEISd-rTo34mxeONOev5nAySGebUXVqo.jpg",
+    prompt: "Bursting with Laughter, Face flushed, mouth wide open, clutching chest"
+},
+{
+    styleName: "Hilarious Shock",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/gzYsCslt-lF1v3VVtrSFKTzVeuDtGsaWmJKiBP6lRLU.jpg",
+    prompt: "Hilarious Shock, Jaw dropped, hands on cheeks, eyes wide in amusement"
+},
+ {
+    styleName: "Silly Grimace",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/ok0p315FWyDCMj3e0V4iVu-jT0rJcQ1LIo65W8y4WRs.jpg",
+    prompt: "Silly Grimace, Twisted mouth, scrunched nose, playful squinting"
+},
+{
+    styleName: "Teary-Eyed Happiness",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/YiLz3QdQFHI-C1hmpad5uadVEqu28plkPAHoNSRXMwA.jpg",
+    prompt: "Teary-Eyed Happiness, Streaming tears, joyful grin, eyebrows raised"
+},
+{
+    styleName: "Hyperactive Chuckling",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Ww1HPxEawFEUeM6Kcg5CvbI5KF-qBhMo64SnkFKa3Qo.jpg",
+    prompt: "Hyperactive Chuckling, Body shaking, rapid laughter, wide-open eyes"
+},
+{
+    styleName: "Mock Sincerity",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/ne7nOwtTowtm9np0W_fRIRji68vQghaGLmfpIrQmGsg.jpg",
+    prompt: "Mock Sincerity, Overdone earnest look, exaggerated hand gestures, playful"
+},
+{
+    styleName: "Cheeky Grin",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/afdaCNZo_GOY1Y86C6AE7DabogfuDWol_zpHG7YAnAg.jpg",
+    prompt: "Cheeky Grin, Big toothy smile, tilted head, eyes glinting mischievously"
+},
+{
+    styleName: "Laughing Fit",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/55XtW4lFjTwxewkan29PJW1IOoU0R9PL86dtWXN-Rac.jpg",
+    prompt: "Laughing Fit, Red faced, eyes streaming, uncontrollable giggles"
+},
+{
+    styleName: "Dramatic Eye Roll",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Vv457tgNm8z-V_P2tsicSis2JKILII-OW01Sa1UK8NU.jpg",
+    prompt: "Dramatic Eye Roll, Eyes rolling exaggeratedly, playful sigh, mock disdain"
+},
+{
+    styleName: "Slapstick Crazy",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/OQN12GsDAVGdpIffTWjTPZDby1_zCzqY4mAXD1rP5x8.jpg",
+    prompt: "Slapstick Crazy, Exaggerated flailing, comical bewilderment, wide-eyed"
+},
+{
+    styleName: "Crazy Laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/djHXMd7Od1LChmokKit3aMonFZ8OrGtUf4TU7TMh9Is.jpg",
+    prompt: "Crazy Laughter, Spirals in eyes, cackling wildly, arms thrown up"
+},
+{
+    styleName: "Gleeful Overreaction",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/J46NKb2JhPU6_3pGW32jnlpcGsEX5hcN3XKxRJQi5RI.jpg",
+    prompt: "Gleeful Overreaction, Big wide eyes, exaggerated head tilt, wide-open smile"
+},
+{
+    styleName: "Exuberant Guffaw",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/xZhfRtcTRusiiOmKdx6RWaVm4IKfzxPLEQbG91kohWw.jpg",
+    prompt: "Exuberant Guffaw, Hands clapping, head thrown back, boisterous laughter"
+},
+{
+    styleName: "Cheeks-in -Hand Chuckles",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/8cAiNgdWR3fn22YA8pq18JzSmwDvx4fU5vFdX_aHp90.jpg",
+    prompt: "Cheeks-in-Hand Chuckles, Resting chin on hands, eyes bright with amusement"
+},
+{
+    styleName: "Tilted Head Jester",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/RbecNFRWBxG5j4wHd-PdHZi1RGmy0oS35GOmxUTMkL0.jpg",
+    prompt: "Tilted Head Jester, Head cocked to one side, sly smile, playful eyes"
+},
+{
+    styleName: "Eyebrow Wiggle",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/lbGKPiPpcDOneFm-kWdBfPHDLjRI6l1zcSf6VBVzLq8.jpg",
+    prompt: "Eyebrow Wiggle, Rapid eyebrow movement, cheeky grin, knowing wink"
+},
+{
+    styleName: "Fish Gape",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/z1R6On-fZFA7xMFmZQBYmERsmapJe40bY28ccAIcK2k.jpg",
+    prompt: "Fish Gape, Wide-open mouth, puckered lips, wide eyes"
+},
+{
+    styleName: "Fake Serious Pout",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/zq0Xz-r_k5mIUkZpqlO7MHPd1bVVGwXkUD8gJ-In11w.jpg",
+    prompt: "Fake Serious Pout, Purse lips, narrowed eyes, exaggerated seriousness"
+},
+{
+    styleName: "Wide-Eyed Grin",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/-SvHVIzEZBMkwz1fYkuhTDsTpBIaYCVfZxYE4VzDHkE.jpg",
+    prompt: "Wide-Eyed Grin, Big smile, eyes wide open, enthusiastic expression"
+},
+{
+    styleName: "Finger Guns and Wink",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/pWoDrltgeykG7Vp35TJl8XOX0koCA_XLNUywoy9vthU.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Finger Guns and Wink, Pointing fingers like guns, exaggerated wink"
+},
+{
+    styleName: "Tongue Out Concentration",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/g0NjMaNc7XdbMEs9IqRNFOhnBWPvOBNJVGVB115lU00.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Tongue Out Concentration, Tongue sticking out, brows furrowed, comical"
+},
+{
+    styleName: "Chipmunk Cheeks",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/ZTEPZFKj-m1nJMTDPYls5uEuOs4wGQjuntYGXbY3Pdg.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Chipmunk Cheeks, Puffing out cheeks, wide eyes, curious smile"
+},
+{
+    styleName: "Air Kiss Blow",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/VY4EC2lroGohGuh9dgWSYU2gNGGeyLuhLVFPRQCLMng.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Air Kiss Blow, Exaggerated puckered lips, blowing kiss into the air"
+},
+{
+    styleName: "Mock Sympathy",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Y91PFvzFUNqb2mIfuU0PP1NnBoxIp79uYagUfBhHg7w.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Mock Sympathy, Over-the-top pout, wide eyes, hand to heart"
+},
+{
+    styleName: "Hysterical Clap",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/XjyLv544shKjhlB_5-z5Jebzdn3uu9RGexkaEZdyJgs.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Hysterical Clap, Clapping hands, laughing uncontrollably, head thrown back"
+},
+{
+    styleName: "Exaggerated Yawn",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Zui1Jv_q9WYCVYJPkAkx8uPdShYQgEylVLRITA3bwc8.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Exaggerated Yawn, Stretching mouth wide, eyes watery, playful sleepiness"
+},
+{
+    styleName: "Backwards Sneer",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/G9xfeR_g29Dn4xlu5zEcTWYFKtMHQhnhe7EQYhn7XAI.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Backwards Sneer, Lopsided grin, squinted eye, playful sneer"
+},
+{
+    styleName: "Twinkle Eyed Grin",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/CTSUcKX3ce82EzUfh83Mt324mlZK-9kwT5XXq3e4OTU.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Twinkle Eyed Grin, Eyes sparkling with mischief, wide, playful grin"
+},
+{
+    styleName: "Major Facepalm",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/c7IWt6sSIyxLw8pKu9huGjP8wLiq9C-9TZ5BIUhdW7g.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Major Facepalm, Slapping forehead, exaggerated frustration, playfully dramatic"
+},
+{
+    styleName: "Sardonic Smirk",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/4QQyEEypU-SB9RlFi6RCWFNbAAzY02TgMYe7Db-GcOs.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Sardonic Smirk, Curled lip, side glance, humorous skepticism"
+},
+{
+    styleName: "Giggling Fit",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/m9mArikMZKDtqc_YOGy-at762s9Z41oo70_NGWEldcA.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Giggling Fit, Slapping knee, tears of joy, uncontrollable laughter"
+},
+{
+    styleName: "Cheshire Cat Smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/qynhx2zsEHvsTaJAg2_9G4Oj6bOqWBBzPfxgOmG5VD4.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Cheshire Cat Smile, Enormous grin, eyes narrowing playfully, mystery"
+},
+{
+    styleName: "Mock Panic",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/N0f47AHPPCN4QFvb4SWvaUxKa6HGFq2RwtLJu3358ls.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Mock Panic, Hands thrown up, wide eyes, exaggerated gasp"
+},
+{
+    styleName: "Bulging Eyes",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/n9A_hQrZjVuKAyf_Ojmj8xi-6lEFoOPfLpHoK-59wns.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Bulging Eyes, Eyes wide and popping, mouth agape, shock mixed with humor"
+},
+{
+    styleName: "Dizzy Spin",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/8AgejFom1OKJxHIMRzjxfYRjnzSuw4BRpPhi-92ps9k.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Dizzy Spin, Eyes swirling, spinning head, dazed but amused look"
+},
+{
+    styleName: "Head Tilt Chuckle",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/lbdjKgYiHFJ79lh_GVzT__zgnaZFS6-UsW61TrxO_x0.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Head Tilt Chuckle, Head tilted back, hearty chuckle, joyful eyes"
+},
+{
+    styleName: "Over-The-Top Wink",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/9Anx9TmwtEW_0Ki70Q_xfGQvHC6AGLdMEAOr5pCqRGo.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Over-The-Top Wink, Exaggerated wink, cheek raised, playful grin"
+},
+{
+    styleName: "Fearsome Giggle",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/x2wzrj7GS4V1xeyYIIB89Y22TM5mLGnoqUqH4NaRucU.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Fearsome Giggle, Trying to look scary while giggling, mock-serious"
+},
+{
+    styleName: "Crinkled Nose Smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/I4NQ9mc4HdUl4vMvn-ModV13DysINstZTSGxxwdfRPo.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Crinkled Nose Smile, Nose wrinkled in delight, wide grin, squinted eyes"
+},
+{
+    styleName: "Double Take Look",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/RyQH1uqj-qHRkj14t2-iLlYxyoNPwe1ThectAA8XCUU.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Double Take Look, Quick head turn, confused then amused expression"
+},
+{
+    styleName: "Exaggerated Bashfulness",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/-_dzcceEfGzov5oFLVF_Zx17RjJzRVEzwEWMg3AIMRM.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Exaggerated Bashfulness, Covering face with hands, peeking through fingers"
+},
+{
+    styleName: "Deadpan Stare",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Fe209ER3xTJpp4GgjBYKzsXc3jT1iIeUEreDnMcD6gQ.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Deadpan Stare, Blank face, subdued burst of laughter afterwards"
+},
+{
+    styleName: "Mock Lost",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/awJiQ7mZO2pXOJuuTYZa1QTZ83jqs3wwDvZKt_AH6DY.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Mock Lost, Scratching head, puzzled yet comical expression"
+},
+{
+    styleName: "Awkward Waving",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/TZgKM9bDbnnu94TT-YTA9gFxC7ovjdyOgfQKMzgMwSc.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Awkward Waving, Shy wave, embarrassed chuckle, wide smile"
+},
+{
+    styleName: "Juggling Eyes",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/RBnEVOX0B4R8SNsU8q-GWq5yk30e53KmKeMvQmDxd9U.jpg",
+    prompt: "Sheer Kimono + Silk Nightgown, Juggling Eyes, Rapid eye movement, mock focus, amused"
+},
+{
+    styleName: "Crisscross Eyes",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/PLACEHOLDER.jpg", // Placeholder for the last image
+    prompt: "Sheer Kimono + Silk Nightgown, Crisscross Eyes, Description goes here"
+},
+{
+    styleName: "Peeking Between Fingers",
+    prompt: "Sheer Kimono + Silk Nightgown, Peeking Between Fingers, Hands covering face, peeking curiously",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/5Xl0_lFdJnh8W2ui0Cc27OfIkLZBrWYOT89i4MpkOCs.jpg"
+},
+{
+    styleName: "Delayed Reaction Gasp",
+    prompt: "Sheer Kimono + Silk Nightgown, Delayed Reaction Gasp, Slow to realize surprise, exaggerated gasp",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/lrq8HKUJxmsatSWW0x9Kxb6bpNZJ2FKwA3GTlcaIkm8.jpg"
+},
+{
+    styleName: "Gobsmacked Glance",
+    prompt: "Sheer Kimono + Silk Nightgown, Gobsmacked Glance, Mouth open in astonishment, humorously exaggerated",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/GGD9t3zvGf3YIShfscA0Dn_P5tkUIdoJ4n5f8xc-xoE.jpg"
+},
+{
+    styleName: "Knee-Slapping Laughter",
+    prompt: "Sheer Kimono + Silk Nightgown, Knee-Slapping Laughter, Bent over double, hand slapping knee, joyous laugh",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Z8p-1L5pCc0wscPUeVzrETrcIfOL7SYna8MwlWSFU3E.jpg"
+},
+{
+    styleName: "Boisterous Roar",
+    prompt: "Sheer Kimono + Silk Nightgown, Boisterous Roar, Mouth wide open, roaring with laughter, animated expression",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/CR5JKEKRcSYCFQJORmDpUSJvbPQ6s7ei7JahF9sG1Go.jpg"
+},
+{
+    styleName: "Fake Pious Look",
+    prompt: "Sheer Kimono + Silk Nightgown, Fake Pious Look, Hands in prayer position, exaggerated sanctimoniousness",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/CHEkGWsSr-bupxSf1NMOLDlLN-jWXBOlCb3sFMUtFpc.jpg"
+},
+{
+    styleName: "Overwhelmed by Adorability",
+    prompt: "Sheer Kimono + Silk Nightgown, Overwhelmed by Adorability, Clutching chest, eyes wide, dramatic swoon",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/brg4ZLOhddqCEC18oUg6i_zAzH8Xb6T5nLRld2Ks-Mk.jpg"
+},
+{
+    styleName: "Confetti Explosion Laugh",
+    prompt: "Sheer Kimono + Silk Nightgown, Confetti Explosion Laugh, Imagining confetti bursting while laughing",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/xt6o2cFqdYdg-IF_tUb8luy8_pGFuWdbTzWek4zAFFw.jpg"
+},
+{
+    styleName: "Overjoyed Frog Leap",
+    prompt: "Sheer Kimono + Silk Nightgown, Overjoyed Frog Leap, Jumping up like a frog, laughing all the way up",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/F6nGljhiD-ZHwX-yLtk0SgSTXpuSQ8yC4FbttlK7JTU.jpg"
+},
+{
+    styleName: "Slow-Mo Laugh Wave",
+    prompt: "Sheer Kimono + Silk Nightgown, Slow-Mo Laugh Wave, Pretending to laugh in exaggerated slow motion",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/ibfTvnNey43lG2DleXPFfPk-xJRZ5K1RhOhLeXVAXQw.jpg"
+},
+{
+    styleName: "Swollen Cheek Chuckle",
+    prompt: "Sheer Kimono + Silk Nightgown, Swollen Cheek Chuckle, One cheek full of air, goofi smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/KvSQsuOAcJOvdZyndmvWL19eH_lD8F21RKNx35nIoz4.jpg"
+},
+{
+    styleName: "Epic “Eureka!” Moment",
+    prompt: "Sheer Kimono + Silk Nightgown, Epic “Eureka!” Moment, Wide eyes, pointing finger up, big grin",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/DIiLuePtEGyN_6C1-sVB8C-aWniD41UVxZFOCtx7B8M.jpg"
+},
+{
+    styleName: "Failed Whisper",
+    prompt: "Sheer Kimono + Silk Nightgown, Failed Whisper, Mouth exaggeratedly forming a whisper, eyes darting",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/F2F1xXzqIRyxe-RBGbIveDb3CZq5eRfu4YCscBiL0QE.jpg"
+},
+{
+    styleName: "Overly Exaggerated Bow",
+    prompt: "Sheer Kimono + Silk Nightgown, Overly Exaggerated Bow, Deep, theatrical bow, with a mischievous smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Wu2v-YOIN0qy0n8dB9JtEBVzB0Q1kQ1szK8Q-T4sTn4.jpg"
+},
+{
+    styleName: "Behind-The-Back Peek",
+    prompt: "Sheer Kimono + Silk Nightgown, Behind-The-Back Peek, Looking over shoulder with a playful expression",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/zNAZbdS1aCOjNEngR3w-fpN2c03OC48C0bn2b0SqP5Q.jpg"
+},
+{
+    styleName: "Laughing Against the Wind",
+    prompt: "Sheer Kimono + Silk Nightgown, Laughing Against the Wind, Pretending to resist the wind with laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/cEaX4aIhcDGp0kVgMk5WnXcAY8k5Gj_Soy3U8plqUco.jpg"
+},
+{
+    styleName: "Exaggerated Confusion",
+    prompt: "Sheer Kimono + Silk Nightgown, Exaggerated Confusion, Crazy eye movements, goofi grin, scratching head",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Uaaii_Yu3w89MRI_B4EsrAkprBOvDecN3K7rrtsn5vs.jpg"
+},
+{
+    styleName: "Suddenly Serious Look",
+    prompt: "Sheer Kimono + Silk Nightgown, Suddenly Serious Look, Quick shift to serious face, burst of laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/XrasQxq5Yi3PrPV0BNqfhVl7DsaaEfK0X9ryKqgVjKI.jpg"
+},
+{
+    styleName: "Squeaky Toy Scream",
+    prompt: "Sheer Kimono + Silk Nightgown, Squeaky Toy Scream, High-pitched scream, eyes wide, playfully scared",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/rkSbeCSqXstEpGokTB0_4BmN2f54ZvhcDAuHhklU8Ic.jpg"
+},
+{
+    styleName: "Dramatic Helpless Gasp",
+    prompt: "Sheer Kimono + Silk Nightgown, Dramatic Helpless Gasp, Flailing hands, wide eyes, theater-style gasp",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/mEwza31Joe0VP4R6-6a3bGgfnMQI2746yJG2fHFgxK4.jpg"
+},
+{
+    styleName: "Pirate Cackle",
+    prompt: "Sheer Kimono + Silk Nightgown, Pirate Cackle, Hand over one eye, loud cackling laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/_QwePhCnJLkdUuojBJ0ZLkGlKH468fsZE1LYzaiuQ1U.jpg"
+},
+{
+    styleName: "Imaginary Rope Pull",
+    prompt: "Sheer Kimono + Silk Nightgown, Imaginary Rope Pull, Pretending to pull an invisible rope, funny struggle",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/TJUR4Ksl6fCHlLWlNjsxUFdHVOeXc68RafU6TxWmnMU.jpg"
+},
+{
+    styleName: "Epic Fall Pretend",
+    prompt: "Sheer Kimono + Silk Nightgown, Epic Fall Pretend, Fake trip, over-exaggerated fall, delighted smirk",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/yddA2aXbCQByMk3whcTS27im6ses7etMbK8_LLE5ZgM.jpg"
+},
+{
+    styleName: "Trampoline Hilarity",
+    prompt: "Sheer Kimono + Silk Nightgown, Trampoline Hilarity, Pretending to bounce up with an infectious laugh",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/xi_jvFg8WZEMaaRhKuWBDryZIAoHoNMba20s90ZCPtw.jpg"
+},
+{
+    styleName: "Invisible Wall Bump",
+    prompt: "Sheer Kimono + Silk Nightgown, Invisible Wall Bump, Walking into an invisible wall, funny reaction",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/WxjdvsyfyBE0k9pKn2Fge37eSE-ea_ij6ISya_RC6oE.jpg"
+},
+{
+    styleName: "Mad Scientist Laugh",
+    prompt: "Sheer Kimono + Silk Nightgown, Mad Scientist Laugh, Manic cackling, rubbing hands together",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/yCwICx_KFEcIMzA94yOvznJXayYBjiXts2T_vyxCCD8.jpg"
+},
+{
+    styleName: "Dizzy Dance",
+    prompt: "Sheer Kimono + Silk Nightgown, Dizzy Dance, Pretending to spin around while laughing",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/PLACEHOLDER.jpg" // Placeholder for the last image
+},
+{
+    styleName: "Volcano Eruption Chuckle",
+    prompt: "Sheer Kimono + Silk Nightgown, Volcano Eruption Chuckle, Humourously expanding cheeks, explosive laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/7Kb6TYUIJ8PEAy2AhB5yOJVeVLRbH9KYGABIJe4nE9E.jpg"
+},
+{
+    styleName: "Shuffling Feet Snicker",
+    prompt: "Sheer Kimono + Silk Nightgown, Shuffling Feet Snicker, Shyly shuffling, wide grin, playful glance",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/as_vhaBK_Vm-FE9mHkh3auv2Rr2zXU5e3e10YS4f604.jpg"
+},
+{
+    styleName: "Imaginary Lasso Swing",
+    prompt: "Sheer Kimono + Silk Nightgown, Imaginary Lasso Swing, Pretending to swing a lasso, cowboy laughter",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/DutwJ8d3EY5Z-zZBWT40HUobuyvyZfdVQVOP9B8UkHU.jpg"
+},
+{
+    styleName: "Emotion Overload Wiggle",
+    prompt: "Sheer Kimono + Silk Nightgown, Emotion Overload Wiggle, Excitable full-body wiggle, face scrunched in joy",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/LDiWTGoX0qRDwiRXN2qEFJr9xvlGFxJN2CHrhVuw5Qs.jpg"
+},
+{
+    styleName: "Roly-Poly Laughter",
+    prompt: "Sheer Kimono + Silk Nightgown, Roly-Poly Laughter, Rolling around while laughing, uncontrollable joy",
+    imageSrc: "https://placehold.co/50x50"
+},
+{
+    styleName: "Twitching Nose Giggle",
+    prompt: "Sheer Kimono + Silk Nightgown, Twitching Nose Giggle, Cute nose twitching, bubbly giggles",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/fPF6ypmQh3PvrS4xrA7DfLIUoEMr0MiY2g_aiywE8ig.jpg"
+},
+{
+    styleName: "Nonsensical Expression",
+    prompt: "Sheer Kimono + Silk Nightgown, Nonsensical Expression, Making funny, nonsensical face for fun",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/RxxOhQ9o00z61kjEC4HSxbHhRyoKEcfPwHB-1nxmrK8.jpg"
+},
+{
+    styleName: "Pretend-Whisper Secret",
+    prompt: "Sheer Kimono + Silk Nightgown, Pretend-Whisper Secret, Exaggerated secret-sharing, super animated",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/3JVVqmBcj18_OjHXZtkxcCDr3d8m5fimilVSzaGx-NY.jpg"
+},
+{
+    styleName: "Overestimated Wink",
+    prompt: "Sheer Kimono + Silk Nightgown, Overestimated Wink, Trying too hard to wink, exaggerated eyes",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/EOg4ASYSbR6rkOiDxowKojMbJgJR397_2G5Xwf5Gbqs.jpg"
+},
+{
+    styleName: "Imaginary Prize Winner",
+    prompt: "Sheer Kimono + Silk Nightgown, Imaginary Prize Winner, Acting like winning a trophy, big smile, pointing gesture",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Oc6mFXnikKpGgoYNsytXOgCW3C6zUrRg_iwcxeU1tqE.jpg"
+},
+{
+    styleName: "Mascot Dance Cheer",
+    prompt: "Sheer Kimono + Silk Nightgown, Mascot Dance Cheer, Pretending to be a team mascot, goofy dance, cheerful laugh",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/W9cADmZIJN7h5Tny8Br1JrshK7DaU_5GP3b8yXs37Tg.jpg"
+},
+{
+    styleName: "Magic Trick Surprise",
+    prompt: "Sheer Kimono + Silk Nightgown, Magic Trick Surprise, Acting amazed by imaginary magic trick, wide-eyed",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/3wg0LxuKc0hyrWIEbAqW4hgi2u_i5CG9hvV_E4tlsHE.jpg"
+},
+{
+    styleName: "Full Tooth Smile Grit",
+    prompt: "Sheer Kimono + Silk Nightgown, Full Tooth Smile Grit, All teeth showing, eyes gleaming, huge smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/xOXSX-WPnvGD8QGVmpMyK-q2zGeNAgIwgzzEfkAd_pg.jpg"
+},
+{
+    styleName: "Synchronized Snapping",
+    prompt: "Sheer Kimono + Silk Nightgown, Synchronized Snapping, Pretending to snap fingers in rhythm, joyful grin",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/pCHneS7F8f9afQ9WZ0JqurTYiIkiPAfGOD1Au1X7650.jpg"
+},
+{
+    styleName: "Joyous Foot Stomp",
+    prompt: "Sheer Kimono + Silk Nightgown, Joyous Foot Stomp, Stomping one foot happily, arms open wide",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/l-bwq1Hopk2o41QmjU-62Ocd2YMsDD362eqlxQMCSDk.jpg"
+},
+{
+    styleName: "Invisible Tug-of-War",
+    prompt: "Sheer Kimono + Silk Nightgown, Invisible Tug-of-War, Pretending to pull against an imaginary force, delighted struggle",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/HA--2IywSGfN4ZctMis_gHqiKTp3R0ShcNuEiJq4bhs.jpg"
+},
+{
+    styleName: "Dramatic Water Splash",
+    prompt: "Sheer Kimono + Silk Nightgown, Dramatic Water Splash, Fake splash reaction, wide eyes, animated gestures",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/12JTMied-oYtWzzYoVUUQbnao8F37UoOCvh7m6AV9O8.jpg"
+},
+{
+    styleName: "Imaginary Jazz Hands",
+    prompt: "Sheer Kimono + Silk Nightgown, Imaginary Jazz Hands, Flashing spirit fingers, unease satisfaction, sparkling eyes",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/0J-pfWMtIHtxtNw_jllXr7dltTq6_xmAhbRJLRDTV4A.jpg"
+},
+{
+    styleName: "Mock Surprise Peek-a-Boo",
+    prompt: "Sheer Kimono + Silk Nightgown, Mock Surprise Peek-a-Boo, Peering through hands, mock surprise",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/1TrneLCLbHd-V89aLxFYN87Zoc3DrliqjLn9fJ0hhcU.jpg"
+},
+{
+    styleName: "Beaming Halo Glow",
+    prompt: "Sheer Kimono + Silk Nightgown, Beaming Halo Glow, Imagining a halo, innocent smile, wide eyes",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Id5Lgq3ue761ebsY2VwSQkvYk9yk0kOU64iaMT3ukpg.jpg"
+},
+{
+    styleName: "Nervous Nodding",
+    prompt: "Sheer Kimono + Silk Nightgown, Nervous Nodding, Overly exaggerated head shakes and nods",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/swIWD2onshnwKRC8klKsjuwPmZ8QbT1uEqpiXh_UPbg.jpg"
+},
+{
+    styleName: "Slip and Slide Laugh",
+    prompt: "Sheer Kimono + Silk Nightgown, Slip and Slide Laugh, Act like sliding on ice, laughter following the act",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/TnMpzfyTVg4yzxb4inSkWtVx6fu4p GXa7PaDJy0whVw.jpg"
+},
+{
+    styleName: "Shocking Hair Ruffle",
+    prompt: "Sheer Kimono + Silk Nightgown, Shocking Hair Ruffle, Frantically ruffling hair, shocked expression",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/0orljpw_qC9fSCqLIxVlvw6sGF1t2QM8x1GG-1Im7h4.jpg"
+},
+{
+    styleName: "Overly Dramatic Arm Wave",
+    prompt: "Sheer Kimono + Silk Nightgown, Overly Dramatic Arm Wave, Over-the-top arm waving, coordination chaos",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Q1mDBz60AOBEd2lQq-3itfR9hNmhNYSU6a4V7_53fe8.jpg"
+},
+{
+    styleName: "Hidden Smirk Reveal",
+    prompt: "Sheer Kimono + Silk Nightgown, Hidden Smirk Reveal, Sneaky smirk turning into a full blown giggle",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/V_mjvlnFeG_Zd5igyBW9IUSjpcy9Zwy2Q_W8bpB-G0Y.jpg"
+},
+{
+    styleName: "Unstoppable Smile Attack",
+    prompt: "Sheer Kimono + Silk Nightgown, Unstoppable Smile Attack, Big smile that grows bigger, almost comical",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Vmexns6KgiggHhcPiuq9GsyM5xSkr5p_GwHffJ0q2l8.jpg"
+},
+{
+    styleName: "Overreaching Stretch Yawn",
+    prompt: "Overreaching Stretch Yawn, Pretending to yawn while stretching arms wide like cat scratches",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/MC0RAXfWD_3lybBvTGv8u-7caASZUIWUwiNf6ZHyH14.jpg"
+},
+{
+    styleName: "Comic Relief Wobble",
+    prompt: "Comic Relief Wobble, Act like becoming wobbly with every laugh attack",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/efLs4cH_B8JbrndzhP_11mdQ203l1qsbrIbdyLD3-u8.jpg"
+},
+{
+    styleName: "Inside Out Jacket Laughter",
+    prompt: "Inside Out Jacket Laughter, Pretending not to realize jacket is inside-out, amused look",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/9ubFeq7ldJVT_QeCgRiZdodw_h_ebrqM-rql7sed9Zg.jpg"
+},
+{
+    styleName: "Balloon Face Inflated",
+    prompt: "Balloon Face Inflated, Filling cheeks with air, silly giggles",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/m1-y4_0hpxBWpK_rWYEa9d6g7segWgFOnmeNhy62stA.jpg"
+},
+{
+    styleName: "Goofi",
+    prompt: "Fitted Hoodie + Pleather Leggings + Chunky Rain Boots, Goofi, playful smile, quirky expression",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/3tQlXzOvEdkTUjvLeiA6Ace8AX0-LZYo-6s2q1QIFcM.jpg"
+},
+{
+    styleName: "Giddy",
+    prompt: "Oversized Sweater + Denim Shorts + Ankle Rain Boots, Giddy, joyful laughter, bright eyes, energetic",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/m21-wI699pmLwu7Q0wRzlwttz5DPtCMnJWRSQgzQOAA.jpg"
+},
+{
+    styleName: "Playful",
+    prompt: "Waterproof Poncho + Cargo Pants + Knee-High Rain Boots, Playful, mischievous grin, frolicking, lively colors",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/b0ji89HXSskljxtldTXdAvVLiHNHhB7qGhM8AiwgdLw.jpg"
+},
+{
+    styleName: "Wacky",
+    prompt: "Lace-Up Bodysuit + High-Waist Trousers + Waterproof Loafers, Wacky, exaggerated features, whimsical, zany antics",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/yDHCU79VhPTM092A3vEFE_zpvff1u-P9Y2II9lmb3sM.jpg"
+},
+{
+    styleName: "Zany",
+    prompt: "Raincoat + Skinny Jeans + Lace-Up Boots, Zany, quirky outfit, bizarre pose, fun chaos",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/rhqgXaCxss6VoqFt-1mIewjP9h-jQV0ijV5ZLAb7plU.jpg"
+},
+{
+    styleName: "Quirky",
+    prompt: "Cropped Windbreaker + Pleated Skirt + Rain Sneakers, Quirky, unusual style, eclectic, endearing charm",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/jyqCaSfDDhnOEfRbOFHLJnqEJnidpD3nAI-uaGtFgyw.jpg"
+},
+{
+    styleName: "Chucklesome",
+    prompt: "Sheer Top + Vinyl Pants + Heeled Boots, Chucklesome, laughing eyes, gentle humor, cozy setting",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/-MZaPvhRfzxR6i46s5ARhbERy-a9NJ1_piJf6oX1rKg.jpg"
+},
+{
+    styleName: "Jocular",
+    prompt: "Rain Poncho + Slip Dress + Waterproof Sneakers, Jocular, hearty laugh, humorous, carefree",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/VnqR75kIgk7-CfkMam6m-FhHtbZ5z6cZJhE_SCGrtBA.jpg"
+},
+{
+    styleName: "Whimsical",
+    prompt: "Waterproof Blazer + Fitted Dress + Heeled Loafers, Whimsical, fairy-tale vibe, soft colors, imaginative",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/DgCoFf5UJ05Kzm3V9npmWY_AnJF4RYyTShvOIc1iEUU.jpg"
+},
+{
+    styleName: "Lighthearted",
+    prompt: "Trench Vest + Leather Leggings + Chunky Boots, Lighthearted, peaceful smile, soft hues, serene background",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/LX6KXvVXeosjVBG0e0CQbRLfZySxIdNHDagjaHao6ME.jpg"
+},
+{
+    styleName: "Tickled",
+    prompt: "Mesh Insert Sweater + Cargo Skirt + Combat Rain Boots, Tickled, giggling face, tickling sensation, soft pastel",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/urd-U3Q9njd3K-fpQdKRel8tHaUvztWQM kiYeLIOy3I.jpg"
+},
+{
+    styleName: "Blithe",
+    prompt: "Rubberized Jacket + Boyfriend Jeans + Rubber Flats, Blithe, carefree, relaxed expression, natural setting",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/_Ssn_L6E0XW8lZDTLrH1howkLJ9rOUy3nPqS0DgKdXk.jpg"
+},
+{
+    styleName: "Frolicsome",
+    prompt: "Fleece-Lined Raincoat + Fitted Jeans + Rain Boots, Frolicsome, energetic leap, joyful motion, vibrant",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/ES0q8ZlyXaNY817_p77HP757766SDhHudLT5qvGq_OA.jpg"
+},
+{
+    styleName: "Gleeful",
+    prompt: "Waterproof Hoodie + Leather Pants + Ankle Strap Heels, Gleeful, overjoyed expression, bright surroundings",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/_XFSBjfQdWZ5ocAN0ItvPazO8d80dFybz1UH0AwXX48.jpg"
+},
+{
+    styleName: "Sassy",
+    prompt: "Layered Rain Poncho + T-Shirt Dress + Rain Boots, Sassy, confident smirk, bold style, expressive",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/jBKvZ42tPxLaAJ8xmQUCTe7sBygDH16w_H7KdKLA8G0.jpg"
+},
+{
+    styleName: "Sprightly",
+    prompt: "Slicker Jacket + Midi Dress + Platform Sneakers, Sprightly, nimble motion, quick actions, lively",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/Ouz-6KS2WTnU-AtH8Wohsh5e3X2PEMSjY1NjhtPpnVs.jpg"
+},
+{
+    styleName: "Cheeky",
+    prompt: "Denim Jacket + Vinyl Shorts + Waterproof Combat Boots, Cheeky, sly smile, teasing gesture, informal",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/TE_b4gWVH_OTAILb0RWnhtyryEpajqVjEfg3avW9FKQ.jpg"
+},
+{
+    styleName: "Impish",
+    prompt: "Utility Jacket + Turtleneck + Joggers + Rain Boots, Impish, playful mischief, twinkling eyes, soft lighting",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/Sz8w8b9TDqU72ZgGHy_RI8yxMIAFIa5q4VKmLkUpVpY.jpg"
+},
+{
+    styleName: "Bubbly",
+    prompt: "Puffer Vest + Leggings + Waterproof Running Shoes, Bubbly, effervescent, lively aura, colorful bubbles",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/Pv5Lbd-WLKrPQ3DoMQJri6xOBwANT0NaQP8eZv4JWbc.jpg"
+},
+{
+    styleName: "Chirpy",
+    prompt: "Trench Cape + Mini Skirt + Rain Heels, Chirpy, bright spirit, upbeat mood, cheerful setting",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/-pQzu4f_wfixEBVkmtbk-09hdZX_jEkmb6E29zKKj3o.jpg"
+},
+{
+    styleName: "Impish",
+    prompt: "Utility Jacket + Turtleneck + Joggers + Rain Boots, Impish, playful mischief, twinkling eyes, soft lighting",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/YHub7WSof4AVsLxzf9mTzCC4kDXqfjuCk89JXdIt3To.jpg"
+},
+{
+    styleName: "Bubbly",
+    prompt: "Puffer Vest + Leggings + Waterproof Running Shoes, Bubbly, effervescent, lively aura, colorful bubbles",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/PO2BMzXgpPXdtF6eWxVSu1F7TYPro4FMNv3SSozsIEY.jpg"
+},
+{
+    styleName: "Chirpy",
+    prompt: "Trench Cape + Mini Skirt + Rain Heels, Chirpy, bright spirit, upbeat mood, cheerful setting",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/_wa_1EAJO2yutmaBnKmW4tmA0vu1hdZzptWOFkGaw-g.jpg"
+},
+{
+    styleName: "Frisky",
+    prompt: "Rain-Resistant Jacket + Tunic + Over-the-Knee Boots, Frisky, spirited movement, lively, playful",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/KKvRacqdt9K5AFZ_eCABcgDKefKud8ICsCJOUuBhDoI.jpg"
+},
+{
+    styleName: "Facetious",
+    prompt: "Poncho Top + Culottes + Waterproof Loafers, Facetious, witty face, joking pose, light atmosphere",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/gFgSb_NhaPDvbTdjNNJYuZHh9XE7ePaU_RNgHWIRdkE.jpg"
+},
+{
+    styleName: "Mischievous",
+    prompt: "Hooded Cape + Leggings + Waterproof Ankle Boots, Mischievous, sly expression, playful prank, cheeky",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/dR-3YepqDaGSV5hQncX9H0RuzoTBLUbaMwQIxuKyoq8.jpg"
+},
+{
+    styleName: "Fanciful",
+    prompt: "Waterproof Blazer Dress + Knee-High Rubber Boots, Fanciful, dreamlike, imaginative scenery, fairy-like",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/Alc23-ys8ACky2tNXCD2k43B3E5ZcLtBbzY_ETaWcqE.jpg"
+},
+{
+    styleName: "Merry",
+    prompt: "Transparent Raincoat + Fitted Velvet Dress + Pumps, Merry, festive colors, joyful, warm smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/clFpVu-GVD-IfSrgYvQPRceZo_XiBZfR8pNLtsGW1qs.jpg"
+},
+{
+    styleName: "Snappy",
+    prompt: "Belted Trench + Jumpsuit + Waterproof Booties, Snappy, crisp action, upbeat, lively expression",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/P2C-aSPC65Y0g76_zURiiVUPxQfVQnlQqZliCTNKyTc.jpg"
+},
+{
+    styleName: "Jubilant",
+    prompt: "Layered Knit + Windbreaker + Skinny Jeans, Jubilant, celebratory atmosphere, radiant smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/GTtNlffQDNERSE4Jh-jEDFtIqUKdQI--c_Vy4eVy_R8.jpg"
+},
+{
+    styleName: "Jolly",
+    prompt: "Waterproof Parka + Palazzo Pants + Rain Sandals, Jolly, round face, big smile, cheerful environment",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/4N9I0a7vhKd33_ZZPFUtlW01_WM8uzd5jK1zFDO2FPk.jpg"
+},
+{
+    styleName: "Peppy",
+    prompt: "Outdoorsy Fleece + Pleather Skirt + Rain Sneakers, Peppy, energetic, bright eyes, bouncy",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/uuBmJCX-w68Mnq5MFbit0LGBPVUfwt0qwG_HOpy98XM.jpg"
+},
+{
+    styleName: "Perky",
+    prompt: "Button-Down Vinyl Top + Skinny Jeans + Chunky Rubber Boots, Perky, alert expression, bright atmosphere, cheerful",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/Lr7AS_QXy6qPhYZw5hAe8GDqnREZMGVS_KpLEvvnbzQ.jpg"
+},
+{
+    styleName: "Snazzy",
+    prompt: "Rain Cape + Tapered Pants + Waterproof Oxfords, Snazzy, stylish, eye-catching, fun accessories",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/x_aS_uc_oTvjix_QC6Nj1Deqp3Nf4ddcOG1b4RkIPuA.jpg"
+},
+{
+    styleName: "Spirited",
+    prompt: "Waterproof Vest + Knit Dress + Rubber Flats, Spirited, lively energy, animated expression, vivid colors",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/nzDimY61_G-l6_tGQwlWg6NnpbtfwgSo_ywZdHc5oxQ.jpg"
+},
+{
+    styleName: "High-spirited",
+    prompt: "Rubberized Hoodie + Track Pants + Heeled Mules, High-spirited, enthusiastic, joyful action, bright world",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/gVUGlTRl98EEoxqJwt-SFzqhhrxr3OtmVLIyH1TKetc.jpg"
+},
+{
+    styleName: "Zestful",
+    prompt: "A-Line Raincoat + Denim Capris + Rain Booties, Zestful, enthusiasm, bright and fresh look, animated",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/An2H0XKkOx90GaVFkOR9tjNpTh8rVEZH5-25gZOsNpE.jpg"
+},
+{
+    styleName: "Carefree",
+    prompt: "Structured Raincoat + Bodycon Dress + Combat Boots, Carefree, relaxed pose, sunny day, gentle breeze",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/OkJPkEafEGju182SVCuPmjdv9prilzNMLxkRuCud4Fs.jpg"
+},
+{
+    styleName: "Sproingy",
+    prompt: "Striped Shirt Dress + Waterproof Wedges, Sproingy, springy movement, bouncy, vibrant",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/zlPAlyD4pD869WNoTRBvsS2GWboAXcabSVylUnDbNp8.jpg"
+},
+{
+    styleName: "Capering",
+    prompt: "Utility Shirt + Skinny Jeans + Rubber High-Tops, Capering, playful leap, spontaneous, lively scene",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/cXhOTl53qq58pnUh50xEVq3J3FM1P2-MxGiYJE7VzEc.jpg"
+},
+{
+    styleName: "In high spirits",
+    prompt: "Hooded Rain Cape + Cargo Pants + Waterproof Mary Janes, In high spirits, smiling face, vibrant background, lively mood",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/KVWRlaVcqTZlhE1WGOW4hi5inDDbsqsK_dcYKsmjQdg.jpg"
+},
+{
+    styleName: "Overjoyed",
+    prompt: "Vinyl Overall Dress + Long Sleeve Top + Heeled Boots, Overjoyed, pure joy, exuberant, soaring",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/r3QI-sm2z_0b9Uavv6mEhOUKI-EOuBDSmhLXEsrV1sk.jpg"
+},
+{
+    styleName: "Lively",
+    prompt: "Waterproof Jacket + Distressed Denim + Loafers, Lively, animated, quick movements, vivid environment",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/J5WRhMfO3oAiTLcEvKqINEdXVQgd2lJojKiczuoNjE0.jpg"
+},
+{
+    styleName: "Jestful",
+    prompt: "Mesh-Topped Raincoat + Fleece Leggings + Rain Boots, Jestful, playfully teasing, humorous air, smile",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/ZlYrkNC7w6jbZwO_s8TKR2sqfqc6hnK2q_0j3tx1FTE.jpg"
+},
+{
+    styleName: "Mirthful",
+    prompt: "Transparent Poncho + Wrap Dress + Waterproof Ankle Boots, Mirthful, merry expression, joyful surrounding, contentment",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/hLDc0xVaByh8wEFiNsugmA6kwynJPvmNFbB5woeLnBw.jpg"
+},
+{
+    styleName: "Hilarious",
+    prompt: "Rainproof Blazer + Turtleneck + Maxi Skirt, Hilarious, exploding laughter, contagious, funny",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/5ES4tdqtNAbpmpVdp35ZEMM7Fw1jGD1LzFi6Vw8lLCU.jpg"
+},
+{
+    styleName: "Zippy",
+    prompt: "Fleece Jacket + Vinyl Shorts + Rain Sneakers, Zippy, quick motion, energetic, swift",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/2N4oe-qWjHiJQVZSLHspP1Cu-tNVrMBW77prdutVI5c.jpg"
+},
+{
+    styleName: "Animated",
+    prompt: "Rain Slicker + Palazzo Pants + Rubber Flats, Animated, lively characters, expressive, full of action",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/qKZwMxge1Hf6YHq47ltV0RVj55CTdGhpU0PZXBslquY.jpg"
+},
+{
+    styleName: "Vivacious",
+    prompt: "Waterproof Duster + Jumpsuit + Heeled Booties, Vivacious, full of life, radiant energy, colorful",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/KdinEiMzY6nkC1cdaQra0ENk9vnfzy1cOIaN0Le7JoU.jpg"
+},
+{
+    styleName: "Loony",
+    prompt: "Rainproof Overshirt + Pencil Skirt + Wedges, Loony, eccentric, silly antics, comedic",
+    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/nPjAaOHv8kjvBotSkN9JxOb_fdTBEATacdpUWxfUJ40.jpg"
 },
 
 ];
