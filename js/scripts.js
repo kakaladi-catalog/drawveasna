@@ -19,130 +19,6 @@
         });
     });
 
-document.addEventListener('DOMContentLoaded', () => {
-    const body = document.body;
-    const toggleRain = document.getElementById('toggleRain');
-    const toggleSnow = document.getElementById('toggleSnow');
-    const toggleLightning = document.getElementById('toggleLightning');
-    let scale = 1;
-    let opacity = 1;
-    let direction = 1; // 1 for zoom in, -1 for zoom out
-    const speed = 0.0005; // Speed of the animation
-    let colorHue = 0; // For color shift effect
-    let animationFrameId;
-    let rainIntervalId;
-    let snowIntervalId;
-
-    // Function to create raindrops
-    function createRaindrop() {
-        const raindrop = document.createElement('div');
-        raindrop.classList.add('raindrop');
-        raindrop.style.left = `${Math.random() * 100}vw`; // Random horizontal position
-        raindrop.style.animationDuration = `${Math.random() * 0.5 + 0.5}s`; // Random fall speed
-        body.appendChild(raindrop);
-
-        // Remove raindrop after it falls
-        raindrop.addEventListener('animationend', () => {
-            raindrop.remove();
-        });
-    }
-
-    // Function to create snowflakes
-    function createSnowflake() {
-        const snowflake = document.createElement('div');
-        snowflake.classList.add('snowflake');
-        snowflake.style.left = `${Math.random() * 100}vw`; // Random horizontal position
-        snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`; // Random fall speed
-        body.appendChild(snowflake);
-
-        // Remove snowflake after it falls
-        snowflake.addEventListener('animationend', () => {
-            snowflake.remove();
-        });
-    }
-
-    // Function to animate the background
-    function animateBackground() {
-        // Update scale and opacity with easing
-        scale += direction * speed;
-        opacity -= direction * speed * 1.5;
-
-        // Apply the transformations
-        body.style.backgroundSize = `${scale * 100}%`;
-        body.style.opacity = opacity;
-
-        // Add a color shift effect
-        colorHue = (colorHue + 0.1) % 360; // Increment hue for color shift
-        body.style.backgroundColor = `hsl(${colorHue}, 50%, 50%)`;
-
-        // Reverse direction when reaching limits
-        if (scale >= 1.5 || scale <= 1) {
-            direction *= -1;
-        }
-
-        // Reset opacity to avoid disappearing completely
-        if (opacity <= 0.5 || opacity >= 1) {
-            opacity = 1;
-        }
-
-        animationFrameId = requestAnimationFrame(animateBackground);
-    }
-
-    // Start the background animation
-    animateBackground();
-
-    // Function to start raining
-    function startRaining() {
-        rainIntervalId = setInterval(createRaindrop, 50); // Create raindrops every 50ms
-    }
-
-    // Function to stop raining
-    function stopRaining() {
-        clearInterval(rainIntervalId);
-        // Remove all existing raindrops
-        document.querySelectorAll('.raindrop').forEach(raindrop => raindrop.remove());
-    }
-
-    // Function to start snowing
-    function startSnowing() {
-        snowIntervalId = setInterval(createSnowflake, 100); // Create snowflakes every 100ms
-    }
-
-    // Function to stop snowing
-    function stopSnowing() {
-        clearInterval(snowIntervalId);
-        // Remove all existing snowflakes
-        document.querySelectorAll('.snowflake').forEach(snowflake => snowflake.remove());
-    }
-
-
-    // Toggle between background animation and rain
-    toggleRain.addEventListener('change', () => {
-        if (toggleRain.checked) {
-            // Stop background animation
-            cancelAnimationFrame(animationFrameId);
-            body.style.backgroundSize = 'cover'; // Reset background size
-            body.style.opacity = '1'; // Reset opacity
-            body.style.backgroundColor = '#121931'; // Reset background color
-            startRaining(); // Start raining
-        } else {
-            // Stop raining and restart background animation
-            stopRaining();
-            animateBackground();
-        }
-    });
-
-    // Toggle snow effect
-    toggleSnow.addEventListener('change', () => {
-        if (toggleSnow.checked) {
-            startSnowing(); // Start snowing
-        } else {
-            stopSnowing(); // Stop snowing
-        }
-    });
-
-});
-
 
 // Add event listener to the checkbox
 document.getElementById('toggleContainer').addEventListener('change', function () {
@@ -654,424 +530,7 @@ function createSelects() {
 "Portrait photo",
 "Post-apocalyptic",
 "Prismatic",
-"Product photo",
-"Realistic photo",
-"Recycled art",
-"Reflection",
-"Retro style",
-"Rococo",
-"Sci-fi",
-"Scientific illustration",
-"Selfie photo",
-"Sepia tone",
-"Shallow depth of field",
-"Silhouette photo",
-"Soft focus",
-"Soft glamour",
-"Southern Gothic",
-"Space fantasy",
-"Spherical",
-"Steampunk",
-"Stippled",
-"Street photo",
-"Tech noir",
-"Tilt-shift effect",
-"Triptych photo",
-"Underexposed",
-"Vintage film",
-"Vintage style",
-"Weird West",
-"Wide angle",
-"Wireframe",
-"Worm’s eye view",
-"Zigzag lines",
-"Abstract wall art",
-"Street art mural",
-"Historical wall fresco",
-"Surreal wall art",
-"Vintage poster wall art",
-"Digital wall art",
-"Cultural tapestry",
-"Cubist wall painting",
-"Floral wall art",
-"Impressionist wall painting",
-"Fantasy wall mural",
-"Monochrome wall art",
-"Art deco wall piece",
-"Ethnic wall art",
-"Kinetic wall sculpture",
-"Street art",
-"2D animation",
-"3D animation",
-"3D lenticular",
-"3D Pop Out",
-"Activist art",
-"Appropriation art",
-"Art nouveau",
-"Art satire",
-"Artificial Bloom",
-"Artistic expression",
-"Bauhaus art",
-"Bespoke fashion",
-"Bio art",
-"Biomorphic art",
-"Biotechnology art",
-"Blacklight/Neon Glow",
-"Blind art",
-"Blueprint",
-"Bokeh",
-"Broken Glass/Shattered",
-"Burnt Film Effect",
-"Cartoon Effect",
-"Chalk/Charcoal Drawing",
-"Chance art",
-"Cinematic Color Grading",
-"Coachella fashion",
-"Color Blocking",
-"Color Splash",
-"Color splash pop",
-"Comic Halftone",
-"Conceptual art",
-"Contour/Bas Relief",
-"Cosmic Ceremony[Cosmic ceremony",
-"Colored pencil style",
-"Creative editing",
-"Cross-Processing",
-"Cryptic Puzzle/Jigsaw Overlay",
-"Crystal Ball Effect",
-"Cubism",
-"Cyber fashion",
-"Cyber/Augmented Reality",
-"Cybernetic art",
-"Dada Art",
-"Dappled Light/Textural Play",
-"De Stijl",
-"Deconstructionist art",
-"Deep Dream",
-"Digital collage",
-"Distorted Reality",
-"Double Exposure Silhouette",
-"Double Exposure",
-"Dramatic Lighting",
-"Dramatic Spotlight",
-"Dreamy Glow/Halos",
-"Duo/Trichrome",
-"Dust & Scratches",
-"Dynamic Blur",
-"Dynamic Color Shift",
-"Dystopian Urbanscape",
-"Eco-art",
-"Emboss",
-"Embroidery/Stitch Pattern",
-"Ethereal Light Beams",
-"Exploding Fragments",
-"Feminist art",
-"Fine art composite",
-"Fine art nude",
-"Fog or Mist Overlay",
-"Fractal Patterns",
-"Fresco Art",
-"Futuristic fashion",
-"Golden Light",
-"Gothic/Dark Fantasy",
-"Graffiti/Street Art",
-"Ice/Cold Effect",
-"Inception/Conceptual Layers",
-"Inclusive art",
-"Isometric view",
-"Kinetic typography",
-"Lenticular/3D Motion",
-"Light Leak",
-"Line art",
-"Liquify/Swirl",
-"Lomo Effect",
-"Low Key",
-"Magic Realism",
-"Medical illustration",
-"Metallic",
-"Minimalism",
-"Mood Lighting",
-"Mosaic",
-"Motion capture",
-"Motion graphics",
-"Murals",
-"Naive art",
-"Op-art",
-"Overlay Textures",
-"Paint Splatter",
-"Painterly Impressionism",
-"Paper Cutout",
-"Paper Mache Look",
-"Papyrus/Sandstone Texture",
-"Parametric art",
-"Pencil Sketch",
-"Polar Coordinates",
-"Polaroid Nostalgia",
-"Political art",
-"Pop-Up Book Effect",
-"Post-colonial art",
-"Poster Edge",
-"Posterize Gradient",
-"Primitive art",
-"Protest art",
-"Psychedelic/Color Wave",
-"Queer art",
-"Resort wear",
-"Retro 8-Bit",
-"Retro Filter",
-"Schematic",
-"Sharp Relief/3D Emboss",
-"Silhouette with Gradient",
-"Silhouette",
-"Silk/Satin Texture",
-"Sketch/Illustration",
-"Soft Glow",
-"Solar Flare",
-"Spectrum Shift",
-"Steampunk fashion",
-"Stencil art",
-"Stippling/Dot Art",
-"Storytelling",
-"Submission art",
-"Sun-Kissed Glow",
-"Suprematism",
-"Synthetic Lens Distortion",
-"Technical drawing",
-"Techwear",
-"Thermal Imaging Effect",
-"Tilt-Shift",
-"Time-lapse Glitch",
-"Topography",
-"Underpainting",
-"Underwater/Water Droplets",
-"Vector art",
-"Vexel",
-"Vienna Secession",
-"Vintage Frame",
-"Vintage Frame/Border",
-"Vintage/Retro",
-"Volumetric Lighting",
-"Warp Speed/Light Trails",
-"Water Reflection",
-"Watercolor Effect",
-"Weathered Grunge",
-"Wrap/Distortion",
-"Zoological illustration",
-"Nostalgic essence",
-"coloring book",
-"20s Art Deco",
-"Abstract Kinetics",
-"Abstract",
-"Airbrush Realism",
-"Allegorical Art",
-"Anime/Manga",
-"Apocalyptic",
-"Arachnid Detailing",
-"Architectural Drawing",
-"Art Nouveau",
-"Astral Digital",
-"Astrological Art",
-"Atmospheric",
-"Audio Visuals",
-"Battlefield Art",
-"Caribbean Tropical",
-"Celestial Mechanics",
-"Celtic Knotwork",
-"Ceremonial Grandeur",
-"Chiaroscuro",
-"Chinoiserie",
-"Chromatic Chaos",
-"Chronicled Histories",
-"Cinematic Lighting",
-"Classic Art Study",
-"Collage",
-"Comic Abstract",
-"Comic Book",
-"Comic Strip",
-"Concept Art",
-"Conceptual Minimalism",
-"Conceptual/Avant-Garde",
-"Constructivism",
-"Cosmic Art",
-"Cosmic Folk Art",
-"Cubist Portraiture",
-"Cultural Clash",
-"Cyberpunk",
-"Dadaism",
-"Dark Instagram Aesthetic",
-"Dawn's Early Light",
-"Daydreaming Style",
-"Digital Blueprint",
-"Digital Drip",
-"Digital Fairy Tale",
-"Digital Papercut",
-"Doodle Punk",
-"Dripping Paint",
-"Ember Glows",
-"Enamel Pin Design",
-"Enigmatic Geometry",
-"Enlightened Abstraction",
-"Ethereal",
-"Ethnographic Art",
-"Expressionism",
-"Fantasy",
-"Fauvism",
-"Fireside Warmth",
-"Floating Islands",
-"Floral Boho",
-"Folk Art Revival",
-"Folklore Art",
-"Forest Spirits",
-"Frozen Symphonies",
-"Ghibli-esque",
-"Glass Art",
-"Stencil Art",
-"Surreal Body Art",
-"Tattoo Art",
-"Tattoo Flash Art",
-"Typographic Art",
-"Zen Art",
-"Machine Learning-Generated Art",
-"Metaphysical Art",
-"Minimal Line Art",
-"Optical Art",
-"Pixel Art",
-"Psychoanalytic Art",
-"Vintage Advertising Art",
-"Gothic Ornamentation Style",
-"Gothic Style",
-"Gourmet Illustration Style",
-"Graffiti Lettering Style",
-"Graffiti-style Sketch Style",
-"Grunge Style",
-"Hauntology Style",
-"Heraldic Style",
-"Heroic Realism Style",
-"High Fantasy Style",
-"High Tech Interface Style",
-"History Illustration Style",
-"Holographic Style",
-"Impressionism Style",
-"Infographics Style",
-"Infrared/Ultraviolet Style",
-"Insect Anatomy Style",
-"Interdimensional Graphics Style",
-"Invisible Cities Style",
-"Iridescent Effect Style",
-"Isometric Style",
-"Jam Poster Aesthetic Style",
-"Japanese Brush Painting (Sumi-e) Style",
-"Journeyman Sketches Style",
-"Kaleidoscope Style",
-"Kawaii Style",
-"Labyrinthine Paths Style",
-"Lava Flow Patterns Style",
-"Letterpress Style",
-"Lunar Inspirations Style",
-"Lunar Landscape Style",
-"Luxury Fashion Sketch Style",
-"Luxury Sneaker Design Style",
-"Manga Fantasy Style",
-"Manga Gothic Style",
-"Marine Nautical Style",
-"Meditative Mandalas Style",
-"Mid-Century Modern Style",
-"Military Realism Style",
-"Minimal Boho Style",
-"Minimal Doodles Style",
-"Minimal Symbolism Style",
-"Minimalist Fantasy Style",
-"Minimalist Landscape Style",
-"Modern Heraldry Style",
-"Modern/Contemporary Style",
-"Monogram Style",
-"Moorish Revival Style",
-"Mosaic Glass Style",
-"Musical Inspiration Style",
-"Mythical Mechanics Style",
-"Mythological Creatures Style",
-"Nature's Fury Style",
-"Neoclassical Style",
-"Neon Genesis Style",
-"Neon Noir Style",
-"Neon/Glow Style",
-"Oceanic Mysteries Style",
-"Old Master's Portrait Style",
-"Old-Time Carnival Style",
-"Ornamental Calligraphy Style",
-"Ornate Filigree Style",
-"Pagan Symbolism Style",
-"Pastel Goth Style",
-"Petroglyphs Style",
-"Photomontage Style",
-"Photorealistic Sci-Fi Style",
-"Plush Toy Style",
-"Pointillist Impressionism Style",
-"Polaroid Effect Style",
-"Pop Surrealism Style",
-"Post-Impressionist Brushwork Style",
-"Post-Modern Parody Style",
-"Pre-Raphaelite Style",
-"Prohibition Era Style",
-"Psychedelic Pop Style",
-"Psychedelic Style",
-"Pulp Illustration Style",
-"Realistic Style",
-"Rebel Grunge Style",
-"Regency Romance Style",
-"Renaissance Futurism Style",
-"Renaissance Grotesque Style",
-"Renaissance Revival Style",
-"Renaissance Sketch Style",
-"Retro Digital Style",
-"Retro Futurism Style",
-"Retro Futuristic Style",
-"Rustic Charm Style",
-"Sandy Textures Style",
-"Sci-Fi Realism Style",
-"Seasonal Transitions Style",
-"Silk Route Wonders Style",
-"Silk Screen Style",
-"Sketch Style",
-"Soap Bubble Effect Style",
-"Social Media Icon Set Style",
-"Soft Pastel Portraits Style",
-"Solar Illumination Style",
-"Southwestern Desert Style",
-"Spiritual Symbolism Style",
-"Stamp Style",
-"Steam Engine Style",
-"Steam Funk Style",
-"Stencil Wars Style",
-"Storyboard Style",
-"Superhero Comics Style",
-"Suspended Animation Style",
-"Symbolic Tattoos Style",
-"Tempestuous Seas Style",
-"Tropical Monsoon Style",
-"Turquoise Watercolor Style",
-"Underwater Fantasy Style",
-"Urban Abstract Style",
-"Urban Bohemia Style",
-"Urban Fantasy Style",
-"Vaporwave Aesthetic Style",
-"Victorian Era Style",
-"Victorian Science Style",
-"Viking Mythology Style",
-"Vintage Advertising Style",
-"Vintage Circus Style",
-"Vintage Obscura Style",
-"Vintage Poster Style",
-"Vivid Imagination Style",
-"Wanderlust Aesthetic Style",
-"Watercolor and Ink Style",
-"Wild West Style",
-"Wilderness Adventures Style",
-"Wildflower Dreams Style",
-"Witchy Vibes Style",
-"Woodcut Illustration Style",
-"Yarn and Threads Style",
-"Zen Mandalas Style",
+
     ];
     options1.forEach(optionText => {
         const option = document.createElement("option");
@@ -1079,14 +538,6 @@ function createSelects() {
         select1.appendChild(option);
     });
     selectContainer.appendChild(select1);
-
-    // Create the search box
-    const searchBox = document.createElement("input");
-    searchBox.type = "text";
-    searchBox.id = "searchBox"; // Add ID for easy access
-    searchBox.placeholder = "Search...";
-    searchBox.style.display = "none"; // Initially hidden
-    selectContainer.appendChild(searchBox);
 }
 
 // Function to update the displayed image
@@ -3193,332 +2644,332 @@ function createTable() {
     {
         styleName: "Cyber gothic",
         imageSrc: "images/oFcLgGg5ATg7cpIBWY3fucwXIev8PiMr4qczdQPVSs0.jpg",
-        prompt: "Young Asian woman, Cyber gothic, futuristic, dark, industrial"
+        prompt: "Cyber gothic, futuristic, dark, industrial"
     },
     {
         styleName: "Cyberpunk style",
         imageSrc: "images/YCPhBKEnbVNfTMzOHFVhoPkiDYB2liRNIjsFiAWG6dU.jpg",
-        prompt: "Young Asian woman, Cyberpunk style, neon lights, urban dystopia, futuristic elements"
+        prompt: "Cyberpunk style, neon lights, urban dystopia, futuristic elements"
     },
     {
         styleName: "Daguerreotype",
         imageSrc: "images/KU-dUr4pKRSD2u8BFh3sMmGsr7Vh5JCO17rqBSUFtQA.jpg",
-        prompt: "Young Asian woman, Daguerreotype, antique photo, silver plate, historical"
+        prompt: "Daguerreotype, antique photo, silver plate, historical"
     },
     {
         styleName: "Digital art",
         imageSrc: "images/rSMvwI4b7DWzhiTNh7y3Xa5jIVyGmomlBb7rVzLAmjs.jpg",
-        prompt: "Young Asian woman, Digital art, computer generated, graphical"
+        prompt: "Digital art, computer generated, graphical"
     },
     {
         styleName: "Documentary style",
         imageSrc: "images/lcOy048AtqQnnu3gidDTeVQod6QRvT0lGl7swFnbG_E.jpg",
-        prompt: "Young Asian woman, Documentary style, real life, candid moments, storytelling"
+        prompt: "Documentary style, real life, candid moments, storytelling"
     },
     {
         styleName: "Double exposure effect",
         imageSrc: "images/qhRhlLOPH2OKt72bmLWWmc5sAUnfORUoqCM0Xdh4t2w.jpg",
-        prompt: "Young Asian woman, Double exposure effect, two overlapping images, artistic"
+        prompt: "Double exposure effect, two overlapping images, artistic"
     },
     {
         styleName: "Dystopian",
         imageSrc: "images/azauflS9qOIsTVbQflOWODead36kAakktqIeju05iM8.jpg",
-        prompt: "Young Asian woman, Dystopian, bleak future, oppressive society, dark themes"
+        prompt: "Dystopian, bleak future, oppressive society, dark themes"
     },
     {
         styleName: "Extreme close-up",
         imageSrc: "images/pRVRsIPV7FJZX3ai2on_ANCoNjyoplRbFJ4QCEn2ky0.jpg",
-        prompt: "Young Asian woman, Extreme close-up, very detailed, focusing on small area"
+        prompt: "Extreme close-up, very detailed, focusing on small area"
     },
     {
         styleName: "Eye level",
         imageSrc: "images/Gd4BxrGuNDgRS2s9fc-4-CtB0yPXtb51KYcgVMCUGWc.jpg",
-        prompt: "Young Asian woman, Eye level, neutral view, relatable perspective, direct"
+        prompt: "Eye level, neutral view, relatable perspective, direct"
     },
     {
         styleName: "Fairy tale",
         imageSrc: "images/mQ9Pn6Kb-AN7jShCi3Q1yM7a3actY1R68aIxYx1kuGw.jpg",
-        prompt: "Young Asian woman, Fairy tale, whimsical, magical, storybook"
+        prompt: "Fairy tale, whimsical, magical, storybook"
     },
     {
         styleName: "Fantasy photo",
         imageSrc: "images/E9t9AMz9Vil6oPUe0utFrDLA-n9F3gaXBepVYL6lXq8.jpg",
-        prompt: "Young Asian woman, Fantasy photo, mythical themes, imaginative settings, magical elements"
+        prompt: "Fantasy photo, mythical themes, imaginative settings, magical elements"
     },
     {
         styleName: "Film noir",
         imageSrc: "images/l5MiJQF_k-6BoVLYbD6-TWmhXafCgL67WytYKnHk3Co.jpg",
-        prompt: "Young Asian woman, Film noir, black and white, moody atmosphere, dramatic shadows"
+        prompt: "Film noir, black and white, moody atmosphere, dramatic shadows"
     },
     {
         styleName: "Fine art photo",
         imageSrc: "images/U7cXpVFEyMwyA7v5rFOk4QliIUiwRSlGddcWcOVic-c.jpg",
-        prompt: "Young Asian woman, Fine art photo, artistic interpretation, high aesthetic value"
+        prompt: "Fine art photo, artistic interpretation, high aesthetic value"
     },
     {
         styleName: "Fish-eye",
         imageSrc: "images/VEDzbKYffC-JZ3cjc-pXTAGvHGy8OxrK6xZp5M49_vA.jpg",
-        prompt: "Young Asian woman, Fish-eye, ultra-wide angle, curved distortions, dramatic"
+        prompt: "Fish-eye, ultra-wide angle, curved distortions, dramatic"
     },
     {
         styleName: "Fisheye lens",
         imageSrc: "images/0wAvEew0GyxflMyEZXsmivbKSAZs9DJUOvo1VW1Bzu4.jpg",
-        prompt: "Young Asian woman, Fisheye lens, wide distortion, bulbous effect"
+        prompt: "Fisheye lens, wide distortion, bulbous effect"
     },
     {
         styleName: "Flat design",
         imageSrc: "images/qLc9TiiT3B9ELOSwybKCp4kZUZwv0r6s51hbZ7QbLQs.jpg",
-        prompt: "Young Asian woman, Flat design, minimal, clean, modern"
+        prompt: "Flat design, minimal, clean, modern"
     },
     {
         styleName: "Flat lay",
         imageSrc: "images/YaVDLoQPjAwVqBReQXHx8RNRvgwqNsvFBve42lhqEJs.jpg",
-        prompt: "Young Asian woman, Flat lay, top-down view, arranged items, organized"
+        prompt: "Flat lay, top-down view, arranged items, organized"
     },
     {
         styleName: "Folk art",
         imageSrc: "images/Ozqv3zk1oMPTr4t_zY_MZt2NGtROu-CNm5-fHy32h1U.jpg",
-        prompt: "Young Asian woman, Folk art, traditional, cultural, handcrafted"
+        prompt: "Folk art, traditional, cultural, handcrafted"
     },
     {
         styleName: "Food photo",
         imageSrc: "images/aWqWwHxsWE3IeJC1GlC5vkCjhzVmE_Vz-yr6oRIGiNY.jpg",
-        prompt: "Young Asian woman, Food photo, appetizing dishes, styled plating, close-up"
+        prompt: "Food photo, appetizing dishes, styled plating, close-up"
     },
     {
         styleName: "Freeze frame",
         imageSrc: "images/QOphXNGk1azavCZCVlDPGbZI70W_vL1SqPrCGMiLy_c.jpg",
-        prompt: "Young Asian woman, Freeze frame, paused action, clear detail, moment in time"
+        prompt: "Freeze frame, paused action, clear detail, moment in time"
     },
     {
         styleName: "Futurism",
         imageSrc: "images/IjNm8eFIpfu98dSWR2XlMTBXYuBvtVcTJvEwrcvd-Ic.jpg",
-        prompt: "Young Asian woman, Futurism, dynamic lines, machine aesthetic, modernism"
+        prompt: "Futurism, dynamic lines, machine aesthetic, modernism"
     },
     {
         styleName: "Futuristic",
         imageSrc: "images/4NGMbdIDYJP3eRfCibg8k3Lipa3nmbb6Cku04oONpzI.jpg",
-        prompt: "Young Asian woman, Futuristic, advanced technology, sleek design, sci-fi elements"
+        prompt: "Futuristic, advanced technology, sleek design, sci-fi elements"
     },
     {
         styleName: "Glamour photo",
         imageSrc: "images/qlVoVHVbVcCAw3S3nlI6nMVn_zBSf__RFawDLLtkcko.jpg",
-        prompt: "Young Asian woman, Glamour photo, stylish, beauty shots, flattering light"
+        prompt: "Glamour photo, stylish, beauty shots, flattering light"
     },
     {
         styleName: "Gothic horror",
         imageSrc: "images/XAFBrk_R6Ctg1imNCvDcehPr46nKuww-BcOE-oU8JQo.jpg",
-        prompt: "Young Asian woman, Gothic horror, dark setting, haunting themes, vintage"
+        prompt: "Gothic horror, dark setting, haunting themes, vintage"
     },
     {
         styleName: "Hand-drawn animation",
         imageSrc: "images/HfDL9fhFYzjKN9Ws7cLgZJagLeMIRXxZRmlhgXmvOBA.jpg",
-        prompt: "Young Asian woman, Hand-drawn animation, traditional, artistic"
+        prompt: "Hand-drawn animation, traditional, artistic"
     },
     {
         styleName: "High contrast",
         imageSrc: "images/F0iIKuk9-iviOgqYFNUH90uWZo4tExzk5NYIyqVh_DI.jpg",
-        prompt: "Young Asian woman, High contrast, strong highlights and shadows, bold colors"
+        prompt: "High contrast, strong highlights and shadows, bold colors"
     },
     {
         styleName: "High poly",
         imageSrc: "images/ExS81XPv5jGrhvMiBkVjOkWRMV9xPAJTAjdsFOrQfyY.jpg",
-        prompt: "Young Asian woman, High poly, detailed 3D model"
+        prompt: "High poly, detailed 3D model"
     },
     {
         styleName: "Horror",
         imageSrc: "images/pycDnKekFxdYDtbARV2mGUdogNjAh5CK2XnBS8d5Fx0.jpg",
-        prompt: "Young Asian woman, Horror, eerie, scary, dark atmosphere"
+        prompt: "Horror, eerie, scary, dark atmosphere"
     },
     {
         styleName: "Hyper realistic",
         imageSrc: "images/4LKSTPFn6SXVLGvTRqAHRaTY3afU8rGzHW6iertXT48.jpg",
-        prompt: "Young Asian woman, Hyper realistic, lifelike detail, meticulous, true-to-life"
+        prompt: "Hyper realistic, lifelike detail, meticulous, true-to-life"
     },
     {
         styleName: "Impressionist style",
         imageSrc: "images/LNRvcw5RHGLZOCDRbuuiZ4gzakaf8AMqd0hK7XSxu0E.jpg",
-        prompt: "Young Asian woman, Impressionist style, soft focus, painterly effect, vibrant colors"
+        prompt: "Impressionist style, soft focus, painterly effect, vibrant colors"
     },
     {
         styleName: "Industrial",
         imageSrc: "images/qJQH6yZgbnlq8HQh6HPD3SyfMTaRyj6HMYLxOP9ITiA.jpg",
-        prompt: "Young Asian woman, Industrial, factories, machinery, urban grit"
+        prompt: "Industrial, factories, machinery, urban grit"
     },
     {
         styleName: "Folk art style",
         imageSrc: "images/RWFHyKGHsxWTaP31KjbC3AqNxcZ8Sf9TCfOkl_nxjfk.jpg",
-        prompt: "Young Asian woman, folk art style, figure crafted, showcasing traditional, cultural, and handcrafted elements"
+        prompt: "folk art style, figure crafted, showcasing traditional, cultural, and handcrafted elements"
     },
     {
         styleName: "Low angle",
         imageSrc: "images/e9F7ziA4OLAm2gO00J7hrGqq_XL-wXDQRNZK0IBasNA.jpg",
-        prompt: "Young Asian woman, Low angle, looking up, powerful perspective, dramatic"
+        prompt: "Low angle, looking up, powerful perspective, dramatic"
     },
     {
         styleName: "Low contrast",
         imageSrc: "images/tqurNbC0aOpQE44g77Y3IBxSwjUL8c_tjGs83wp5UHY.jpg",
-        prompt: "Young Asian woman, Low contrast, muted colors, soft tones, gentle transitions"
+        prompt: "Low contrast, muted colors, soft tones, gentle transitions"
     },
     {
         styleName: "Low poly",
         imageSrc: "images/4VY-npRYZCN8icQ8_A0z3ED1K--_SWib8mw8u9PmdyQ.jpg",
-        prompt: "Young Asian woman, Low poly, geometric, polygon shapes"
+        prompt: "Low poly, geometric, polygon shapes"
     },
     {
         styleName: "Magazine style",
         imageSrc: "images/ZFaumvILDzdO9doD6QYhFeOSEmgMrn5xuieSGskUCwA.jpg",
-        prompt: "Young Asian woman, Magazine style, polished, editorial, professional look"
+        prompt: "Magazine style, polished, editorial, professional look"
     },
     {
         styleName: "Magical realism",
         imageSrc: "images/bjBpZLnMbPme5x1_6mh_AENZwg2v6udBW9kzR55muuQ.jpg",
-        prompt: "Young Asian woman, Magical realism, everyday with magical elements, subtle magic"
+        prompt: "Magical realism, everyday with magical elements, subtle magic"
     },
     {
         styleName: "Makeup transformation",
         imageSrc: "images/KNZu8-cG8BdHRMt2fyxr9--ZRcfTnJQU39vO5-qEq0k.jpg",
-        prompt: "Young Asian woman, Makeup transformation, dramatic change"
+        prompt: "Makeup transformation, dramatic change"
     },
     {
         styleName: "Manipulated",
         imageSrc: "images/0u4w9opD5-KGBfmnOjM3WjKzawd5g9iR6bcbHSMtHy4.jpg",
-        prompt: "Young Asian woman, Manipulated, digitally altered, surreal"
+        prompt: "Manipulated, digitally altered, surreal"
     },
     {
         styleName: "Masked portrait",
         imageSrc: "images/dsnbJYI33nrRTmkbTsHKwC3VlUax0FHDiUEQRaej7sM.jpg",
-        prompt: "Young Asian woman, Masked portrait, concealed identity, dramatic, mysterious"
+        prompt: "Masked portrait, concealed identity, dramatic, mysterious"
     },
     {
         styleName: "Medical",
         imageSrc: "images/orWeE_zNl33utvOMdVTniW6Mp4WAV89O6wlXmmiuVKU.jpg",
-        prompt: "Young Asian woman, Medical, clinical, healthcare, scientific"
+        prompt: "Medical, clinical, healthcare, scientific"
     },
     {
         styleName: "Mid-century modern wedding",
         imageSrc: "images/7Jxhb4WDKT9Q51Xq0gDDA9gey5eZFW8tFf1ufo3HiYM.jpg",
-        prompt: "Young Asian woman, Mid-century modern wedding, 1950s-60s, retro"
+        prompt: "Mid-century modern wedding, 1950s-60s, retro"
     },
     {
         styleName: "Minimalist",
         imageSrc: "images/BKTrYJTp1shcTw-CUDtXVzcmRIPipFYDfKrdaqzjCFM.jpg",
-        prompt: "Young Asian woman, Minimalist, clean lines, simple composition, few elements"
+        prompt: "Minimalist, clean lines, simple composition, few elements"
     },
     {
         styleName: "Mixed media",
         imageSrc: "images/07YGhNxzfhbNvIyB3IgF_jUK3SC9dS64hiApRL6xjpM.jpg",
-        prompt: "Young Asian woman, Mixed media, various materials, artistic combination"
+        prompt: "Mixed media, various materials, artistic combination"
     },
     {
         styleName: "Modern",
         imageSrc: "images/EssE-_lXE6VjVv0ziMpyZy4cxDQuP9v11TKTW0bIpeM.jpg",
-        prompt: "Young Asian woman, Modern, contemporary, clean lines, current style"
+        prompt: "Modern, contemporary, clean lines, current style"
     },
     {
         styleName: "Monochrome photo",
         imageSrc: "images/k7WBI5Cghbig_arOMA1K-2eSGrgjO7IlKeMeKIdgyA0.jpg",
-        prompt: "Young Asian woman, Monochrome photo, single color tone, varying shades"
+        prompt: "Monochrome photo, single color tone, varying shades"
     },
     {
         styleName: "Moody photo",
         imageSrc: "images/LPbEzSoOfqJGL-oHuv39A3viT3d8faAjFBkkFyy2Nas.jpg",
-        prompt: "Young Asian woman, Moody photo, dark tones, atmospheric, emotional"
+        prompt: "Moody photo, dark tones, atmospheric, emotional"
     },
     {
         styleName: "Motion blur",
         imageSrc: "images/iaKX8lhvMyAnTH_4RSzPK2L7MahVmTUOcp-3ZytxP0E.jpg",
-        prompt: "Young Asian woman, Motion blur, sense of movement, blurred elements, dynamic"
+        prompt: "Motion blur, sense of movement, blurred elements, dynamic"
     },
     {
         styleName: "Multiple exposure",
         imageSrc: "images/fz781C9tYbqDJAV4rxSCo0MW1fABXhl_Od1dmwvMIoQ.jpg",
-        prompt: "Young Asian woman, Multiple exposure, several overlapping shots, experimental"
+        prompt: "Multiple exposure, several overlapping shots, experimental"
     },
     {
         styleName: "Mythological",
         imageSrc: "images/nBjcXwnGykUxwftglBpbgNQQ46WhFa8x2ISkbu__pLw.jpg",
-        prompt: "Young Asian woman, Mythological, ancient legends, mythical creatures"
+        prompt: "Mythological, ancient legends, mythical creatures"
     },
     {
         styleName: "Neon glow",
         imageSrc: "images/IM-KcWaA0nDk5-PgxnMYEkTrisErPWvewtfcxBCIWo0.jpg",
-        prompt: "Young Asian woman, Neon glow, luminous, bright colors"
+        prompt: "Neon glow, luminous, bright colors"
     },
     {
         styleName: "Noir",
         imageSrc: "images/944qERkWEE4J2yoxHBHVBdpboRYhrnD7pe8w8-61T-Y.jpg",
-        prompt: "Young Asian woman, Noir, dark, moody, detective aesthetic"
+        prompt: "Noir, dark, moody, detective aesthetic"
     },
     {
         styleName: "Oil Painting",
         imageSrc: "images/z0A8c4JtnmDeqA3invBh7JW3ZUX9eYduaB0ATwWCaxg.jpg",
-        prompt: "Young Asian woman, Oil Painting, Converts an image to resemble an oil painting with visible brushstrokes"
+        prompt: "Oil Painting, Converts an image to resemble an oil painting with visible brushstrokes"
     },
     {
         styleName: "Op art",
         imageSrc: "images/NSk6zu4Yufy9Dt5fKUULXlb9oNn7_xA6XvgHvfFdkTc.jpg",
-        prompt: "Young Asian woman, Op art, optical illusions, visual effects, movement"
+        prompt: "Op art, optical illusions, visual effects, movement"
     },
     {
         styleName: "Overexposed",
         imageSrc: "images/xwi0akcw_DqfzNXw2zmBiEf4ptyBiA2Mse6qFlkQhyo.jpg",
-        prompt: "Young Asian woman, Overexposed, bright light, washed out, high exposure"
+        prompt: "Overexposed, bright light, washed out, high exposure"
     },
     {
         styleName: "Panoramic photo",
         imageSrc: "images/SzImqD8BIY-HFawEnyatGI7OnCXLWphEeLa92B8wFZk.jpg",
-        prompt: "Young Asian woman, Panoramic photo, wide view, landscape sweep, stitched image"
+        prompt: "Panoramic photo, wide view, landscape sweep, stitched image"
     },
     {
         styleName: "Pastel colors",
         imageSrc: "images/EXcOmmSvUGJaAob9pgA1cEOLTbjG9ELrSsl1ReWV-cs.jpg",
-        prompt: "Young Asian woman, Pastel colors, soft tones, gentle hues, calming effect"
+        prompt: "Pastel colors, soft tones, gentle hues, calming effect"
     },
     {
         styleName: "Photo collage",
         imageSrc: "images/boHWJwYkLZ1WaDFamxSyQMTaF8l05xClOucu-I2t7IA.jpg",
-        prompt: "Young Asian woman, Photo collage, multiple images, creative layout, mixed media"
+        prompt: "Photo collage, multiple images, creative layout, mixed media"
     },
     {
         styleName: "Photogrammetry",
         imageSrc: "images/iXObCPMWeoU0_4YfncKnUWNoZ7kMhUSG7Iy4sKbG_AI.jpg",
-        prompt: "Young Asian woman, Photogrammetry, 3D scan, high detail"
+        prompt: "Photogrammetry, 3D scan, high detail"
     },
     {
         styleName: "Pixelated",
         imageSrc: "images/8VKucdA77NwSvr4wcTsElj7d8FPxZQhOMnWJBm9gULg.jpg",
-        prompt: "Young Asian woman, Pixelated, digital pixel effect, low resolution"
+        prompt: "Pixelated, digital pixel effect, low resolution"
     },
     {
         styleName: "Pointillism",
         imageSrc: "images/nWX7etGquPoLhxfBcDZvlnwoTCKYaqemoTB64Ws1a0E.jpg",
-        prompt: "Young Asian woman, Pointillism, dots, impressionist technique"
+        prompt: "Pointillism, dots, impressionist technique"
     },
     {
         styleName: "Polaroid style",
         imageSrc: "images/ghIBE4gAsBVFf_Q1eSxdEYkTUATUHVuTKjIl-PcD2Kw.jpg",
-        prompt: "Young Asian woman, Polaroid style, instant photo, white border, retro look"
+        prompt: "Polaroid style, instant photo, white border, retro look"
     },
     {
         styleName: "Pop art",
         imageSrc: "images/01R2mJzHiw9anwoEDhElPsYq2vYShh5KpHZRgym_oIA.jpg",
-        prompt: "Young Asian woman, Pop art, bright colors, bold outlines, cultural references"
+        prompt: "Pop art, bright colors, bold outlines, cultural references"
     },
     {
         styleName: "Portrait photo",
         imageSrc: "images/4Dih04N2GyQniMhx4RowytPa4mnt-782xhAUQYr6roE.jpg",
-        prompt: "Young Asian woman, Portrait photo, headshot, expressive face, person-focused"
+        prompt: "Portrait photo, headshot, expressive face, person-focused"
     },
     {
         styleName: "Post-apocalyptic",
         imageSrc: "images/xEUX96XV14laZuXt9S-N4j6m1Y6T4WUA9w5TTK449NM.jpg",
-        prompt: "Young Asian woman, Post-apocalyptic, dystopian, ruined world, survival"
+        prompt: "Post-apocalyptic, dystopian, ruined world, survival"
     },
     {
         styleName: "Prismatic",
         imageSrc: "images/oeiNZfuD9Pn0wb3nSUH-2zQMEGAXB8RMgfU55-fXDB4.jpg",
-        prompt: "Young Asian woman, Prismatic, light refraction, rainbow effect, colorful"
+        prompt: "Prismatic, light refraction, rainbow effect, colorful"
     },
 
 ];
