@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="https://lh3.googleusercontent.com/MOVPfGccBq1PpiqeAY4rxWe_CddJcOICRQ0MJ8CE8uwSyTXvsk-RipkMXrwhhtoJ_4k" type="image/png">
+    <link rel="icon" href="icon.png" type="image/png">
     <meta charset="UTF-8">
     <title>Style UI</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="css/style_Modern.css"> <!-- Link to the CSS file -->
     <audio id="ambientSound" loop>
         <source src="audio/beats.mp3" type="audio/mp3">
         Your browser does not support the audio element.
@@ -15,27 +15,16 @@
     </audio>
 </head>
  <body><!-- The body of the HTML document -->
-    <h1>Scroll Down to See the Button</h1>
-    <p>This is a long page to demonstrate the "Go to Top" button.</p>
-
+    <h1>"</h1>
+    <p>"</p>
     <!-- Go to Top Button -->
     <button id="goToTopBtn" title="Go to Top">↑</button>
   <div class="container"> 
    <div class="header">
     <div class="choose-stayle">
      <!-- Checkbox to toggle containers -->
-        <div class="toggle-container">
-            <label>
-                <input type="checkbox" id="toggleRain"> Rain
-            </label>
-            <label>
-                <input type="checkbox" id="toggleSnow"> Snow
-            </label>
-        </div>
-        <label class="checkbox-label">
-            <input type="checkbox" id="toggleContainer"> Show Prompts 
-        </label>
-        <span class="slstyle">😒😊Select a style 👉</span>
+
+        <span class="slstyle">Select a style 👉</span>
         <div class="selects" id="dynamicSelects"></div>
                 <!-- Style select will be dynamically added here -->
             </div>
@@ -63,8 +52,6 @@
                      <div id="imageContainer">
                         <!-- This is where the image will be appended -->
                     </div>
-
-
                 </div>
             </div>
              <!-- Second Grid Item -->
@@ -81,15 +68,16 @@
                 <!-- Generate Section -->
                 <div class="Generate">
                     <span class="text-sm generate-text">Generate On Copilot 👇</span>
-
                 </div>
-
                 <!-- Dynamic Text and Copy Button -->
                 <div class="mt-2">
                     <p class="formprompt" id="copyText">
                         <span id="dynamicText"></span>
-                        <button class="copy-button" onclick="copyToClipboard()">Copy Text</button>
                     </p>
+                    <button class="copy-button" onclick="copyToClipboard()">Copy Text</button>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="toggleContainer"> Show Prompts 
+                    </label>
                 </div>
             </div>
         </div>
@@ -99,16 +87,11 @@
                 <!-- This is where the checkboxes and selects will be appended -->
             </table>
         </div>
-
         <!-- Container 3 -->
         <div class="container3" style="display: none;">
-            <div class="button-container">
-                <button onclick="showTable(1)" class="prompt-button prompt-1">prompt 1</button>
-                <button onclick="showTable(2)" class="prompt-button prompt-2">prompt 2</button>
-                <button onclick="showTable(3)" class="prompt-button prompt-3">prompt 3</button>
-                <button onclick="showTable(4)" class="prompt-button prompt-4">prompt 4</button>
-                <button onclick="showTable(5 )" class="prompt-button prompt-5">prompt 5</button>
-            </div> 
+            <div>
+                <input type="text" class="searchBox" id="searchBox" placeholder="Search by Style Name or Prompt" />
+            </div>
             <div class="overflow-x-auto">
                 <table class="min-w-full bg-white border border-gray-300" id="container3Table">
                     <!-- Table content will be dynamically added here -->
