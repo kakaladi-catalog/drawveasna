@@ -678,7 +678,7 @@ function createTable() {
         },
         {
             styleName: "line art",
-            imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Lineart.png",
+            imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/lineart.png",
             prompt: "line art drawing, professional, sleek, modern, minimalist, graphic, line art, vector graphics"
         },
         {
