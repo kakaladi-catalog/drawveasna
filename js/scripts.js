@@ -3775,6 +3775,272 @@ const data = [
     prompt: "Rainproof Overshirt + Pencil Skirt + Wedges, Loony, eccentric, silly antics, comedic",
     imageSrc: "https://kakaladi-catalog.github.io/drawveasna/image/nPjAaOHv8kjvBotSkN9JxOb_fdTBEATacdpUWxfUJ40.jpg"
 },
+{
+    styleName: "Eccentric",
+    prompt: "Rubberized Cape + Wide-Leg Pants + Rain Loafers, Eccentric, unique style, quirky pose, whimsical",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/m6Y8HPNlu6FgIhKCeAcjyNPgzskUbpIzjMhpG5AS0eY.jpg"
+},
+{
+    styleName: "Unconventional",
+    prompt: "Vinyl Crop Top + Joggers + Waterproof Sneakers, Unconventional, offbeat, charming oddness, creative",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/HP7MKbr29C6Z6T8s-VAvUJOW5_ki-IKcFyxut3IoiPQ.jpg"
+},
+{
+    styleName: "Unpredictable",
+    prompt: "Rainproof Poncho + Tunic Dress + Rubber Booties, Unpredictable, surprising, spontaneous, dynamic",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/BJdw84XgyzsSgXPKMsCJ9HJALFTZKGIcOuA73m7l-bE.jpg"
+},
+{
+    styleName: "Jestingly",
+    prompt: "Utility Blazer + Skinny Jeans + Waterproof Flats, Jestingly, lighthearted teasing, bright setting, humorous",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/k_H84VxmsD91zpzmdVYlXH_0FX7IImqxG49XWHRi_wY.jpg"
+},
+{
+    styleName: "Light-hearted",
+    prompt: "Rain-Repellent Tank + Denim Overalls + Strappy Sandals, Light-hearted, easy-going, peaceful expression, warm colors",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/5gfgYmvgCkP1jUn0UqbUjPtBLdrcBOT5cHjeK6CXKR4.jpg"
+},
+{
+    styleName: "Glibly",
+    prompt: "Layered Poncho + Bodysuit + Fitted Skirt, Glibly, smooth talking, witty, flirtatious",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/EHVZL-0_Qdk1XXgCsy9WmiA6fyTPBekKiyMIgO1Qd5Y.jpg"
+},
+{
+    styleName: "Frothy",
+    prompt: "Rainproof Vest + Thermal Leggings + Ankle Boots, Frothy, airy, delicate bubbles, light atmosphere",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/xltHl69nKh_Sas6sZ3R7N-PBjfZvwyH6gNf2Zl4PmIQ.jpg"
+},
+{
+    styleName: "Whackadoodle",
+    prompt: "Ribbed Sweater + Vinyl Skirt + Thigh-High Rain Boots, Whackadoodle, off-the-wall, peculiar expression, zany",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/BGhm6d7HuiOIcaYgd5HBtOiYaWcRYyXeYVthHl08sRc.jpg"
+},
+{
+    styleName: "Jazzy",
+    prompt: "Rubberized Rain Jacket + Cut-Off Shorts + Flat Boots, Jazzy, rhythmic, vibrant, colorful patterns",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/PudJabXHqMudM6RLc92mFuF2JNUj00ziI__eidJ0jns.jpg"
+},
+{
+    styleName: "Jumpy",
+    prompt: "Waterproof Parka + A-Line Skirt + Waterproof Boots, Jumpy, sudden movements, energetic, lively",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/qbNfJvDVQMJ_liHsqJ3xpeh7JphvpG8DfP4nTGcgpAA.jpg"
+},
+{
+    styleName: "Popcorny",
+    prompt: "Rain-Resistant Wrap + Midi Dress + Heeled Rubber Boots, Popcorny, popping, playful, burst of fun",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/zGwko64IdATshN5KPWd5CzhIP95ANVrhkIbwR8-Mi6I.jpg"
+},
+{
+    styleName: "Zazzy",
+    prompt: "Hooded Sweater + Cargo Pants + Combat Boots, Zazzy, flashy, lively, sparkly",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/NZyHQw2ClG4PNEjpp4DLlc3waQCcYuihy1Hr21UQ7Vc.jpg"
+},
+{
+    styleName: "Boomsy",
+    prompt: "Vinyl Shirt + Fleece-Lined Leggings + Waterproof Flats, Boomsy, bubbly energy, spirited, energetic",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/hoCvf4vdvZ5SSa0L39gUFm3AKPSrzUnIu1RhXS4H-oQ.jpg"
+},
+{
+    styleName: "Fizzy",
+    prompt: "Rainproof Blazer + T-Shirt Dress + Platform Sneakers, Fizzy, effervescent, bubbly personality, bright colors",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/Hv3-Yuz7nkrRLKjjNmlUeTmHcPaI_NUDXru_lh7F3Uc.jpg"
+},
+{
+    styleName: "Breezy",
+    prompt: "Anorak + High-Waist Trousers + Waterproof Heeled Booties, Breezy, lighthearted, airy atmosphere, carefree",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/kGzKbktHAMDMezgAY-hvjhUM76eRe8WRtMaS9kELZUM.jpg"
+},
+{
+    styleName: "Breezily",
+    prompt: "Waterproof Puffer Jacket + Pencil Skirt + Flats, Breezily, relaxed, easygoing, gentle wind",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/WlcpnH6X1YUealkQWkJzpKt92o1cVaGe9Pes4MUK1n0.jpg"
+},
+{
+    styleName: "Smirkish",
+    prompt: "Patchwork Poncho + Maxi Skirt + Chunky Boots, Smirkish, slight smile, playful glance, cheeky",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/BjpQF61-nE2dDg-XsBRVkxSzBxm4ir9VbmXkRNxHZw8.jpg"
+},
+{
+    styleName: "Sunshiny",
+    prompt: "Knit Top + Vinyl Pants + Waterproof Boots, Sunshiny, bright and sunny, warm glow, smile",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/N3Yh63BGPAtcWlfsvDMBT_W-cM_yIKEtfwU5e36jazQ.jpg"
+},
+{
+    styleName: "Squeaky",
+    prompt: "Rainproof Parka + High-Waist Skirt + Ankle Boots, Squeaky, high-pitched joy, playful, vibrant",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/izvGQqn2V5uv18PEZbHUFlaz_a5UUxjctGgMsa17tNc.jpg"
+},
+{
+    styleName: "Quippy",
+    prompt: "Fleece Lined Raincoat + Dress + Tall Boots, Quippy, witty, sharp expression, playful humor",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/UzwC4fXvU4IB10YQvaXxh1CcNUlHFZlKd_JG8mqfwCA.jpg"
+},
+{
+    styleName: "Zizzling",
+    prompt: "Rainproof Sleeveless Top + Skinny Jeans + Heeled Mules, Zizzling, enthusiasm, bright and fresh look, animated",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/WbziW-LsspKU1GfGGnLK2wFoTGTXcYRGgDike2v8qT8.jpg"
+},
+{
+    styleName: "Percolating",
+    prompt: "Puffer Coat + Denim Skirt + Rain Sneakers, Percolating, bubbling excitement, rising energy, lively",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/mDKO_h4_0AgELPWcY4V66yRJcdCXyIiU5zFX911W3vI.jpg"
+},
+{
+    styleName: "Rambling",
+    prompt: "Rain-Repellent Jacket + Culottes + Platform Shoes, Rambling, wandering, light-hearted, carefree path",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/pvUId8DqgClO9R1HgCR73PY7x5B0POOZy6dcEXNG6rs.jpg"
+},
+{
+    styleName: "Scampish",
+    prompt: "Button-Front Poncho + Striped Top + Tapered Pants, Scampish, playful troublemaker, light-hearted mischief",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/KxU5HSxUBro5zYek7xDvId0G_2-cpNlE5e10vn26hNo.jpg"
+},
+{
+    styleName: "Skittish",
+    prompt: "Layered Raincoat + Wide-Leg Trousers + Sandals, Skittish, jumpy, lively reactions, playful surprise",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/C7ngjcCVFSWfcuawke5-KhGDHS69CWuQs2Jcu9nFDVk.jpg"
+},
+{
+    styleName: "Skippy",
+    prompt: "Oversized Sweater Dress + Heeled Rubber Boots, Skippy, bouncy steps, energetic, fun movement",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/dxJ9Cx7OB3fv1rWaSsDjqfL-OvAxfAfB0VOOr3n73Uw.jpg"
+},
+{
+    styleName: "Snapping",
+    prompt: "Rainproof Cape + Knit Bodycon Dress + Ankle Boots, Snapping, quick actions, responsive, lively",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/0GA6QSN6k0ekc4IXiZ40iIzEvTCjBVUsC4qSNIIdgZ4.jpg"
+},
+{
+    styleName: "Recharging",
+    prompt: "Vinyl Trench + High-Waisted Jeans + Waterproof Sneakers, Recharging, refreshed, relaxed energy, gentle light",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/Opa2RmpotapOPmDZJlH7_dw3-S098tq25RH7fRQ2CaI.jpg"
+},
+{
+    styleName: "Energized",
+    prompt: "Rain-Repellent Blouse + Corduroy Pants + Loafers, Energized, high energy, lively actions, bright",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/LdCOb3buY95kzdNkUqDa3q5RcUHc_1cEnGNpx2sleEg.jpg"
+},
+{
+    styleName: "Zizzling (again)",
+    prompt: "Paddle Coat + Blouse + Mini Skirt, Zizzling (again), sizzling energy, crackling fun",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/SbdqAvlw4FFRu4-GbJANgVR8smxD5Pg8Txzn_scwyXQ.jpg"
+},
+{
+    styleName: "Swirly",
+    prompt: "Rain-Resistant Hooded Top + Khakis + Rubber Boots, Swirly, twirling patterns, dynamic, fluid motion",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/8feGlBV5W5tSlJB_Ze8ucTpN0mUBoCsM-OfrE92BluQ.jpg"
+},
+{
+    styleName: "Zigzagging",
+    prompt: "Rainproof Vest + Fleece-Lined Dress + Ankle Boots, Zigzagging, quick changes, dynamic movement, playful",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/l5_Z_qSW4To_ajBjDp_K8RnvNfczv5IIA2c_TJzWkt8.jpg"
+},
+{
+    styleName: "Zoomy",
+    prompt: "Rubberized Cape + Jogger Pants + Platform Sneakers, Zoomy, speedy, fast-moving, lively scene",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/kuHcDhxpjWo73c9mq8K744rAe_Aty8Xrtf80ke9uB-w.jpg"
+},
+{
+    styleName: "Flibbertigibbet",
+    prompt: "Hooded Poncho + Distressed Jeans + Chunky Sandals, Flibbertigibbet, whimsical, flighty, light-hearted fun",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/vdcGyKy7-NCwPsV0c-sHGCy57Py5sx58ArV_3ab2p4I.jpg"
+},
+{
+    styleName: "Dizzied",
+    prompt: "Vinyl Peacoat + Culottes + Waterproof Flats, Dizzied, swirling, spinning fun, bright colors",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/8W9xcpZovdb2bnN6H8y8Wxgc_IOekN_MPTMxrDgg_Wc.jpg"
+},
+{
+    styleName: "Buffoonish",
+    prompt: "Transparent Trench + Slit Skirt + Combat Boots, Buffoonish, clownish antics, silly expression, comedic",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/BvjPfdcgwB8-A1heX__Eo2TDnevrJH4WvFImB7Ft4q0.jpg"
+},
+{
+    styleName: "Clownish",
+    prompt: "Utility Jacket + Fleece Shorts + Heeled Booties, Clownish, exaggerated features, humorous, playful",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/Xo3V-KRYldCknOoFqxL_5a9ZmLXjEROwYiQkRylSzmI.jpg"
+},
+{
+    styleName: "Wanderlusting",
+    prompt: "Rubberized Tank + Flared Jeans + Waterproof Heels, Wanderlusting, dreamy, adventurous, inquisitive",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/wDKpYmHzLbg7C6wPz9ZPzcpBdH6U7HYYfZ-7yr_BsZA.jpg"
+},
+{
+    styleName: "Cloud-happy",
+    prompt: "Short Raincoat + Dress + Tall Waterproof Boots, Cloud-happy, daydreamy, floating sensation, peaceful",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/ENUlDE9s83SdtIzuyNMmZf9FBs8ogeMIPFVtHEitvmo.jpg"
+},
+{
+    styleName: "Bonkers",
+    prompt: "Hooded Cape + Tie-Waist Pants + Loafers, Bonkers, crazy fun, wild antics, colorful",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/wOsdnmKc83tfifJNMzYW8QG9JISIcdetvd4xY18v0gU.jpg"
+},
+{
+    styleName: "Screwball",
+    prompt: "Cross-Front Poncho + Skinny Jeans + Ankle Boots, Screwball, offbeat, zany expressions, merry chaos",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/kDnrSZjF7kl50NoZjHpS1mZuADvRL58A52tZZmbHm-8.jpg"
+},
+{
+    styleName: "Crackbrained",
+    prompt: "Waterproof Tunic + Leggings + Platform Sneakers, Crackbrained, whimsical, nonsensical actions, cheerful",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/N8G1ElNi50hhdyU79qQ6wPqlGKaOQaNnJG613z5PrZ4.jpg"
+},
+{
+    styleName: "Doo-lolly",
+    prompt: "Rainproof Cardigan + Cargo Skirt + Heeled Boots, Doo-lolly, eccentric, kooky, comically charming",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/jmHmz9IyyWW42D61QjcBTmFVww7MN_stvQvFooFy4Qc.jpg"
+},
+{
+    styleName: "Loopy",
+    prompt: "Paddle Jacket + Cutoff Shorts + Waterproof Sandals, Loopy, silly, roundabout actions, light-hearted",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/Qq44cL-FkkJ79ktWaa8FKjGiBCS3iMGnvS3IFBewNQg.jpg"
+},
+{
+    styleName: "Nutty",
+    prompt: "Quilted Raincoat + Culottes + Boots, Nutty, a little crazy, chaos, cheerful setting",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/x9Rj6NQQQFf4YTvYFhWm1smZy1A1DKt58xRVvnDdXk.jpg"
+},
+{
+    styleName: "Dingy",
+    prompt: "Utility Overshirt + Printed Pants + Wedge Heels, Dingy, quirky, offbeat pattern, funny",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/tMD5JUyvz0fhFJtRUexjhGNIhuo-FCdHcEmDN-ZE-Vc.jpg"
+},
+{
+    styleName: "Puckish",
+    prompt: "Waterproof Hoodie + Slit Maxi with Rain Boots, Puckish, mischievously charming, playful expression",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/lS3iQq_BkQzAP4WNBX27NHmWT7si2hDmt35b3NwX22k.jpg"
+},
+{
+    styleName: "Scampy",
+    prompt: "Rainproof Dress and Coat with Ankle Strap Heels, Scampy, playful troublemaker, roguish charm, sweet",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/AIb0_MBsn5eRHwUklw4R2I7U3T3Yu-zdOMKAqT5JqAI.jpg"
+},
+{
+    styleName: "Shimmering",
+    prompt: "Slicker Jacket + Pencil Skirt + Flats, Shimmering, sparkling light, bright aura, magical",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/Jfdcd-o691xpjvNB3E4saH6NZdqjF-MAx2nPScvOC_8.jpg"
+},
+{
+    styleName: "Zuggily",
+    prompt: "Raincape + Comfy Leggings + Belted Boots, Zuggily, quirky, zany antics, off-the-wall",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/TqPenI7UZSBdiMDXFdsp0goXnH1nLKpUGpdS83o73Qc.jpg"
+},
+{
+    styleName: "Fiddly",
+    prompt: "Fur-Lined Raincoat + Cargo Pants + Combat Boots, Fiddly, intricate actions, fun details, lively",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/N8G1ElNi50hhdyU79qQ6wPqlGKaOQaNnJG613z5PrZ4.jpg"
+},
+{
+    styleName: "Tumbling",
+    prompt: "Fluid Vinyl Coat + Tank Dress + Rain Boots, Tumbling, playful roll, dynamic, fun movement",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/QmfnCw1e6EzFnGoS9MbHSwg44tYIg3gpSjjNqZIcCU4.jpg"
+},
+{
+    styleName: "Jiving",
+    prompt: "Rain-Resistant Fleece + Shirtdress + Wedge Sandals, Jiving, rhythmic, lively dance, light-hearted",
+    imageSrc: "hhttps://kakaladi-catalog.github.io/drawveasna/image/ZHKBA88xaAol9KCmJ0TIbKXVKjEHiUFy8q8-ry447TU.jpg"
+}
+
 
 ];
 
