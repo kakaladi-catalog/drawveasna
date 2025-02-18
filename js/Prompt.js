@@ -8,10 +8,10 @@ function createTableContent() {
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
     headerRow.innerHTML = `
-    <th class="px-4 py-2 border-b border-gray-300 rounded-header rounded-tl-lg">No</th>
-    <th class="px-4 py-2 border-b border-gray-300 rounded-header">Style Name</th>
-    <th class="px-4 py-2 border-b border-gray-300 rounded-header">Young Khmer woman</th>
-    <th class="px-4 py-2 border-b border-gray-300 rounded-header rounded-tr-lg">Prompt</th>
+    <th>No</th>
+    <th>Style Name</th>
+    <th>Image</th>
+    <th>Prompt</th>
     `;
     thead.appendChild(headerRow);
     table.appendChild(thead);
@@ -23,13 +23,13 @@ function createTableContent() {
             
             no: 1,
             styleName: "Nightwear sets1",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/DR4gy8nt5_gaecPyp5UC5wncKWCz7fq2qKZ8bg-A0eo.jpg",
             prompt: "Lace Bralette + Silk Pajama Shorts"
           },
           {
             no: 2,
             styleName: "Nightwear sets2",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/0PxJMn3FhAU_Xc1vxh4O8wf5yPp4bOxYec3zLiMmnAg.jpg",
             prompt: "Satin Slip Dress + Kimono Robe"
           },
           {
@@ -101,7 +101,7 @@ function createTableContent() {
           {
             no: 14,
             styleName: "Nightwear sets14",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/M0RyngDOn06-58swQUVQP_TDnIhQghQLIYxLpS-GZMc.jpg",
             prompt: "Sheer Kimono + Silk Nightgown"
           },
           {
@@ -197,13 +197,13 @@ function createTableContent() {
         {
             no: 40,
             styleName: "Nightwear sets40",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/4YQOQvKunce-pQlVG_LfFCv0f7Bpz7Vri7uicZCLYQo.jpg",
             prompt: "Satin Bodysuit + Sheer Overlay, Asian Young Woman"
         },
         {
             no: 41,
             styleName: "Nightwear sets41",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/mkKxoruZOVMKzIhaurYfM930RsrWCeUbL6Jsrxd0du8.jpg",
             prompt: "Sheer Gown + Silk Bikini, Asian Young Woman"
         },
         {
@@ -227,7 +227,7 @@ function createTableContent() {
         {
             no: 45,
             styleName: "Nightwear sets45",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/CNNldZx_khb9PpNcmNu8s886jmqRked2l_ziE6xkYRg.jpg",
             prompt: "Satin Maxi Slip + Lace Crop Top, Asian Young Woman"
         },
         {
@@ -257,7 +257,7 @@ function createTableContent() {
         {
             no: 50,
             styleName: "Nightwear sets50",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/Qa3PE7cgSEmA1pWiqO5wmepO2FjOpW5pZRmKX5r_pmI.jpg",
             prompt: "Cropped Satin PJ Set + Robe, Asian Young Woman"
         },
         {
@@ -281,7 +281,7 @@ function createTableContent() {
         {
             no: 54,
             styleName: "Nightwear sets54",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/0EbO-XOpPXBwJabxNl0XojZB76SXSgy2tNfxulxrkyY.jpg",
             prompt: "Lace Trim Corset + Long Skirt, Asian Young Woman"
         },
         {
@@ -293,7 +293,7 @@ function createTableContent() {
         {
             no: 56,
             styleName: "Nightwear sets56",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/IuPH4JH6ZRUWkrEdp9bXPOkYy7M-nbb5nlJyUUsqYTo.jpg",
             prompt: "Lace Halterneck + Satin Thong, Asian Young Woman"
         },
         {
@@ -599,7 +599,7 @@ function createTableContent() {
         {
             no: 107,
             styleName: "Nightwear sets107",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/tSaLbutHJejovmUL9r8z1jfsecSVQ30wt3yfUu3xK5Q.jpg",
             prompt: "Tiered Lace Babydoll + Matching Thong"
         },
         {
@@ -671,7 +671,7 @@ function createTableContent() {
         {
             no: 119,
             styleName: "Nightwear sets119",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/YUMmwyeOh5JHH-ini9N5gCJr8y6kc_RIY9HvOCcId6s.jpg",
             prompt: "Sheer Lace Nightgown + Velvet Robe, Asian Young Woman"
         },
         {
@@ -1196,14 +1196,14 @@ function createTableContent() {
         {
             no: 204,
             styleName: "Nightwear sets 204",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/bq2W6fbwmwj-_D4S7aICWjEe61h10ApsglWo_1lqCvg.jpg",
             prompt: "Alpaca Wool Pajamas Night Suit, alpaca wool pajamas, warm, luxurious, Asian Young Woman"
         },
         
         {
             no: 205,
             styleName: "Nightwear sets 205",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/zcKjs9mfF9VyN2J0ycGXUka14PVB3mnp3JHWAYr7Prc.jpg",
             prompt: "Animal Print Pajamas Night Suit, bold animal print pajamas, night suit, fun, Asian Young Woman"
         },
         
@@ -1245,7 +1245,7 @@ function createTableContent() {
         {
             no: 211,
             styleName: "Nightwear sets 211",
-            imageSrc: "https://placehold.co/50x50",
+            imageSrc: "images/_KBG7byrBz14HiauNhKwrHQtf5CPloKe0T5SuPgcLlc.jpg",
             prompt: "Ballet Sleeve Nightgown Night Suit, ballet sleeve nightgown, graceful, night suit, Asian Young Woman"
         },
         
@@ -1429,7 +1429,7 @@ function createTableContent() {
             {
               no: 239,
               styleName: "Nightwear sets 239",
-              imageSrc: "https://placehold.co/50x50",
+              imageSrc: "images/k-Gzp_FxGkd4JKAKn08MsN0364td6LzRzPevAdmrIQg.jpg",
               prompt: "Cropped Pajama Top Night Suit, cropped pajama top, trendy, modern,"
             },
             {
@@ -1453,7 +1453,7 @@ function createTableContent() {
             {
               no: 243,
               styleName: "Nightwear sets 243",
-              imageSrc: "https://placehold.co/50x50",
+              imageSrc: "images/6ncK2JoUp2yTJ4_IG1u-p1aJh4yF-_wPiaRUr0iyQlU.jpg",
               prompt: "Elastic Waistband Pajama Pants Night Suit, elastic waistband pajama pants, flexible, easy,"
             },
             {
@@ -1489,7 +1489,7 @@ function createTableContent() {
             {
               no: 249,
               styleName: "Nightwear sets 249",
-              imageSrc: "https://placehold.co/50x50",
+              imageSrc: "images/z53JCSOc49D3psYE_D9noIBQSQ0Ckjm6wIwogv0F2zE.jpg",
               prompt: "Ethnic Style Pajamas, Incorporating traditional patterns and designs,"
             },
             {
@@ -1585,7 +1585,7 @@ function createTableContent() {
               {
                 no: 270,
                 styleName: "Nightwear sets 270",
-                imageSrc: "https://placehold.co/50x50",
+                imageSrc: "images/xQY6gB6SJWsEm9oEh6d9lzdhCOdpKKq7e6oJrDgsfNk.jpg",
                 prompt: "Kaftan Nightdress, Loose, flowing garment with sleeves,"
               },
               {
@@ -1597,7 +1597,7 @@ function createTableContent() {
               {
                 no: 272,
                 styleName: "Nightwear sets 272",
-                imageSrc: "https://placehold.co/50x50",
+                imageSrc: "images/X21DrUPqG9wjtxeNB7gLsDlDAwKZCDbOoiAIT7rG-Ho.jpg",
                 prompt: "Kimono Sleeve Nightwear Night Suit, kimono sleeve nightwear, wide sleeves, chic,"
               },
               {
@@ -1615,7 +1615,7 @@ function createTableContent() {
               {
                 no: 275,
                 styleName: "Nightwear sets 275",
-                imageSrc: "https://placehold.co/50x50",
+                imageSrc: "images/LcKPq3cerCqi9y7oqcxstsIXbjFBjVtI-imxemjRFok.jpg",
                 prompt: "Long John Pajamas Night Suit, traditional long john pajamas, snug, night suit,"
               },
               {
@@ -1645,7 +1645,7 @@ function createTableContent() {
               {
                 no: 280,
                 styleName: "Nightwear sets 280",
-                imageSrc: "https://placehold.co/50x50",
+                imageSrc: "images/tTELWODmGrf0p1h7vButigPmLTypVWtJnSgwW6h1Qrc.jpg",
                 prompt: "Mandarin Collar Pajamas Night Suit, mandarin collar pajamas, classic, polished look,"
               },
               {
@@ -1681,13 +1681,13 @@ function createTableContent() {
               {
                 no: 286,
                 styleName: "Nightwear sets 286",
-                imageSrc: "https://placehold.co/50x50",
+                imageSrc: "images/34mdnlVAz_tdRmMHCU6xr6kwdeVsIVwZ-LtD166v05Q.jpg",
                 prompt: "Nursing Pajamas Night Suit, nursing pajamas, convenient for breastfeeding,"
               },
               {
                 no: 287,
                 styleName: "Nightwear sets 287",
-                imageSrc: "https://placehold.co/50x50",
+                imageSrc: "images/q4M0uVxaaNgXh2JhLaIerakUU-mV-Z5emvxi9WIs1CI.jpg",
                 prompt: "Organic Cotton Nightwear Night Suit, organic cotton nightwear, eco-conscious, soft,"
               },
               {
@@ -1790,7 +1790,7 @@ function createTableContent() {
                 {
                   no: 304,
                   styleName: "Nightwear sets 304",
-                  imageSrc: "https://placehold.co/50x50",
+                  imageSrc: "images/KLdygV5DY70fwjL16g_kK57S_D45j7X7O6gzRIrtckw.jpg",
                   prompt: "Organic Cotton Pajamas Night Suit, organic cotton pajamas, natural, breathable"
                 },
                 {
@@ -3261,9 +3261,6 @@ function createTableContent() {
 
 
 
-
-
-
         {
             no: 7981,
             styleName: "sexy Hybrid Cloth sets 7981",
@@ -3441,17 +3438,34 @@ function createTableContent() {
     ];
 
 
-    tableData.forEach(item => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td class="px-4 py-2 border-b border-gray-300">${item.no}</td>
-            <td class="px-4 py-2 border-b border-gray-300">${item.styleName}</td>
-            <td class="px-4 py-2 border-b border-gray-300">
-                <img alt="Young Khmer woman wearing ${item.styleName}" height="50" src="${item.imageSrc}" width="50">
-            </td>
-            <td class="px-4 py-2 border-b border-gray-300">${item.prompt}</td>
-        `;
-        tbody.appendChild(row);
+    // Function to render table rows
+    function renderTableRows(data) {
+        tbody.innerHTML = ''; // Clear existing rows
+        data.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${item.no}</td>
+                <td>${item.styleName}</td>
+                <td>
+                    <img alt="Young Khmer woman wearing ${item.styleName}" height="50" src="${item.imageSrc}" width="50">
+                </td>
+                <td>${item.prompt}</td>
+            `;
+            tbody.appendChild(row);
+        });
+    }
+
+    renderTableRows(tableData); // Initial render
+
+    // Add search functionality
+    const searchBox = document.getElementById('searchBox');
+    searchBox.addEventListener('input', function() {
+        const searchTerm = searchBox.value.toLowerCase();
+        const filteredData = tableData.filter(item => 
+            item.styleName.toLowerCase().includes(searchTerm) || 
+            item.prompt.toLowerCase().includes(searchTerm)
+        );
+        renderTableRows(filteredData); // Render filtered rows
     });
 
     table.appendChild(tbody);
