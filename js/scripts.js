@@ -1183,7 +1183,7 @@ const data = [
 },
 {
     styleName: "Art Deco",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/vP14DFutQI85JkqJutlEivCap7ZBIvSKOB3-dW5zECE.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/vP14DFutQI85JkqJutlEivCap7ZBIvSKOB3-dW5zECE.jpg",
     prompt: "Art Deco, sleek, geometric forms, art deco style"
 },
 {
@@ -1198,7 +1198,7 @@ const data = [
 },
 {
     styleName: "Avant-garde",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/v4FkRX3TGSBzntjnR4Mut1NXYpB4UbKQMKSomtlnxaM.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/v4FkRX3TGSBzntjnR4Mut1NXYpB4UbKQMKSomtlnxaM.jpg",
     prompt: "Avant-garde, unusual, experimental, avant-garde art"
 },
 {
@@ -1223,7 +1223,7 @@ const data = [
 },
 {
     styleName: "Cel Shaded Art",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/UWviNCtwtGcuduocENFBx6ED07zlXiJoLpMkMvyY9aY.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/UWviNCtwtGcuduocENFBx6ED07zlXiJoLpMkMvyY9aY.jpg",
     prompt: "Cel Shaded Art, 2D, flat color, toon shading, cel shaded style"
 },
 {
@@ -1268,7 +1268,7 @@ const data = [
 },
 {
     styleName: "Dark Fantasy",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/VrJKLMzK3xgCj8Jwpwv7bdUTdlVH49yoOq9SgwwW5c0.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/VrJKLMzK3xgCj8Jwpwv7bdUTdlVH49yoOq9SgwwW5c0.jpg",
     prompt: "Dark Fantasy Art, dark, moody, dark fantasy style"
 },
 {
@@ -1368,7 +1368,7 @@ const data = [
 },
 {
     styleName: "Infographic Drawing",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/UwdiIzE2SiavGKBfE3cLZJKQeFgS2c_r0dRmkN7C4Uo.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/UwdiIzE2SiavGKBfE3cLZJKQeFgS2c_r0dRmkN7C4Uo.jpg",
     prompt: "Infographic Drawing, diagram, infographic"
 },
 {
@@ -1383,7 +1383,7 @@ const data = [
 },
 {
     styleName: "Knolling Photography",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/WarkT848Njv4PEfNvIxHli6U10s9G-2KKxs2MQp-1C4.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/WarkT848Njv4PEfNvIxHli6U10s9G-2KKxs2MQp-1C4.jpg",
     prompt: "Knolling Photography, flat lay photography, object arrangement, knolling photography"
 },
 {
@@ -1433,7 +1433,7 @@ const data = [
 },
 {
     styleName: "Neo-Baroque",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/wEmyhJ5mxh0BSfJDOPvRLmcCI0skXAFP-K2HPt9cdI8.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/wEmyhJ5mxh0BSfJDOPvRLmcCI0skXAFP-K2HPt9cdI8.jpg",
     prompt: "Neo-Baroque, ornate and elaborate, dynamic, Neo-Baroque"
 },
 {
@@ -1488,7 +1488,7 @@ const data = [
 },
 {
     styleName: "Silhouette Art",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/wKeKGmLYtQz7_M0MHHtlZSwrmE9Uomf_AUrJvjXEego.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/wKeKGmLYtQz7_M0MHHtlZSwrmE9Uomf_AUrJvjXEego.jpg",
     prompt: "Silhouette Art, high contrast, well defined, Silhouette Art"
 },
 {
@@ -1538,12 +1538,12 @@ const data = [
 },
 {
     styleName: "Volumetric Lighting",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/WtNl07A7XrHBX-2oO4Kqc9GvG7_AFOj1OkCVsR1bP9M.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/WtNl07A7XrHBX-2oO4Kqc9GvG7_AFOj1OkCVsR1bP9M.jpg",
     prompt: "Volumetric Lighting, light depth, dramatic atmospheric lighting, Volumetric Lighting"
 },
 {
     styleName: "Watercolor 2",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/wEfnn2E8CpghmOC4aC_Jd_Wu3jqBWgXCajHy6Tk4xa0.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/wEfnn2E8CpghmOC4aC_Jd_Wu3jqBWgXCajHy6Tk4xa0.jpg",
     prompt: "Watercolor style painting, visible paper texture, colorwash, watercolor"
 },
 {
@@ -1578,7 +1578,7 @@ const data = [
 },
 {
     styleName: "Cute Anime Ghibli",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/wFzvKBInJrraFw84saU5Qx-s608SUV0TblBp6Kfcko0.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/wFzvKBInJrraFw84saU5Qx-s608SUV0TblBp6Kfcko0.jpg",
     prompt: "adorable, cute, Kawaii, {Animal}, Ghibli art style, Spirited Away art style, cute moe anime character portrait, adorable, featured on Pixi, kawai moé masterpiece, cuteness overload, very detailed, so adorable!!!, subtle nuances, wonderful"
 },
 {
@@ -1593,7 +1593,7 @@ const data = [
 },
 {
     styleName: "1980s Photo",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/UGGYQFGZzIa9xFVQv8_qkBnxXMqFTxA_HnjM8ZLj9jY.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/UGGYQFGZzIa9xFVQv8_qkBnxXMqFTxA_HnjM8ZLj9jY.jpg",
     prompt: "Vintage 80s Photo, Grainy, Kodacholor II, Vignetting, Retro, Old-School, Wear and Tear, Creasing, Scratches, Vintage Colors"
 },
 {
@@ -1768,7 +1768,7 @@ const data = [
 },
 {
     styleName: "Wooden Furniture-style",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/udWLKGidSyLXyTvlxphsIYREaMLJO-fkttVD40HG4lk.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/udWLKGidSyLXyTvlxphsIYREaMLJO-fkttVD40HG4lk.jpg",
     prompt: "Wooden furniture, {cat}-shaped, a bed, artistic design, carved details, functional, natural finish, unique decor."
 },
 {
@@ -1843,7 +1843,7 @@ const data = [
 },
 {
     styleName: "vacuum design",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/vn5GG2zDtZ2DJCPEiTqFb671y1RT0UWZeEXujEZDVh8.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/vn5GG2zDtZ2DJCPEiTqFb671y1RT0UWZeEXujEZDVh8.jpg",
     prompt: "Realistic whimsical {{vacuum}}, {{cat}}-shaped design, charming household appliance, setting in Livingroom."
 },
 {
@@ -1858,7 +1858,7 @@ const data = [
 },
 {
     styleName: "Motorbike modified, mobile café shop",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/uzJd2-7vAOIlVYqfqb3GFCIHrCEaKT0ksZBDjBghu5M.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/uzJd2-7vAOIlVYqfqb3GFCIHrCEaKT0ksZBDjBghu5M.jpg",
     prompt: "Modified {{motorbike}} café, compact, functional, coffee equipment, barista station, serving counter, seating, retractable awning, storage, aesthetic design, urban mobility, outdoor setup, customer engagement, customizable menu, espresso machine, grinder, milk frother, sink, electricity, LED lighting, branding, innovative."
 },
 {
@@ -1958,7 +1958,7 @@ const data = [
 },
 {
     styleName: "group anime characters",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/vC2BpWRQuXuq5RQ7oh5yaqOG9MyTpauHltJjmDlc5LA.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/vC2BpWRQuXuq5RQ7oh5yaqOG9MyTpauHltJjmDlc5LA.jpg",
     prompt: "A group of anime characters from the {Naruto} series, in chibi style, standing in a black box with straw-like material on the bottom. The characters are all wearing their iconic outfits and have different poses."
 },
 {
@@ -2038,7 +2038,7 @@ const data = [
 },
 {
     styleName: "Animal 3D Effect",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/WTrdLFaGOIWPzoQd-Sk22OLbrSzIKCW6xfA3eX9ATTk.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/WTrdLFaGOIWPzoQd-Sk22OLbrSzIKCW6xfA3eX9ATTk.jpg",
     prompt: "{[Animal]} peeking out of round wood frame with black background, playful, curious animal, realistic detail, picture frame, surprise element, cute animal, artistic composition, with cement texture wallpaper background."
 },
 {
@@ -2068,7 +2068,7 @@ const data = [
 },
 {
     styleName: "Smoke art",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/VoT7kaNuw7CJtPYNPbm3TTxkJU-SJTrBxuwMTY-lOAQ.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/VoT7kaNuw7CJtPYNPbm3TTxkJU-SJTrBxuwMTY-lOAQ.jpg",
     prompt: "Smoke art of {a cat}, with wispy patterns, abstract design, ethereal, flowing shapes, monochrome, delicate artistic swirls, smoke trails."
 },
 {
@@ -2083,7 +2083,7 @@ const data = [
 },
 {
     styleName: "Silicone mold-style",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/WIC2b9UpYeZPWoiAcHOaOvfgYndicRpth5V9EEdfFAI.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/WIC2b9UpYeZPWoiAcHOaOvfgYndicRpth5V9EEdfFAI.jpg",
     prompt: "Silicone mold, {Animal}, flexible material, detailed design, smooth texture, casting mold, intricate patterns, crafting tool, soft rubbery."
 },
 {
@@ -2093,7 +2093,7 @@ const data = [
 },
 {
     styleName: "flip-flops pattern Design",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/Tm0WZvOQKW2YcayJlYqYvmWgBJmeMd0H1q7UecZZJWU.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/Tm0WZvOQKW2YcayJlYqYvmWgBJmeMd0H1q7UecZZJWU.jpg",
     prompt: "A pair of flip-flops, {dog} with Khmer Art Patterns, cut out, the flip-flops are white color and the pattern is black, top view."
 },
 {
@@ -2148,7 +2148,7 @@ const data = [
 },
 {
     styleName: "Gouache Painting",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/uLBOAMufIKm2saDcsmCXOcTQuTYRbCwoo3xoELdz1kQ.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/uLBOAMufIKm2saDcsmCXOcTQuTYRbCwoo3xoELdz1kQ.jpg",
     prompt: "Gouache, {{Animals}}, Opaque, Matte finish, Bold colors, Thick brushstrokes, Smooth gradients, Oil paint textures, Luminous, Layered, Hand-painted."
 },
 {
@@ -2168,7 +2168,7 @@ const data = [
 },
 {
     styleName: "anime drawing",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/WZCLWWdy5eayibVBGkkY8_aZnYIEOQszh_F_TggHHRg.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/WZCLWWdy5eayibVBGkkY8_aZnYIEOQszh_F_TggHHRg.jpg",
     prompt: "digital art drawing, illustration of {{Animal}}, anime drawing/art, bold linework, illustration, cel shaded, painterly style, digital art, masterpiece."
 },
 {
@@ -2178,7 +2178,7 @@ const data = [
 },
 {
     styleName: "T-Shirt Design",
-    imageSrc: "https://kakaladi-catalog.github.io/drawveasna/images/_GtGGVeabD7g9DcbpJMgc_nT9mCdkpuUKuIA1JtYo0I.jpg",
+    imageSrc: "https://storage.googleapis.com/a1aa/image/_GtGGVeabD7g9DcbpJMgc_nT9mCdkpuUKuIA1JtYo0I.jpg",
     prompt: "T-shirt design, trendy, graphic, stylish, bold patterns, vibrant colors, creative, fashion, casual wear, unique artwork, (Leonardo DiCaprio)."
 },
 {
