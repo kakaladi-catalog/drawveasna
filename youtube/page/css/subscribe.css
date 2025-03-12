@@ -120,10 +120,10 @@ body {
 }
 
 .channel-item {
-    margin: 20px;
+    margin: 5px;
     background-color: #ffffff; /* White background for items */
     border: 2px dashed #333; /* Dashed border for sketch effect */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 5px; /* Rounded corners */
     overflow: hidden; /* Hide overflow */
     width: 300px; /* Fixed width for items */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Light shadow */
