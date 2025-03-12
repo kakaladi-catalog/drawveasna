@@ -1,8 +1,12 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a more casual font */
-    background-color: #ffffff; /* Changed to white for sketch style */
+    background-color: #ffffff; /* Fallback color */
+    background-image: url('https://img.freepik.com/free-photo/pencil-sketch-texture_1409-1476.jpg'); /* Add your sketch background image */
+    background-size: cover; /* Cover the entire body */
+    background-repeat: no-repeat; /* Prevent repeating the image */
 }
 
+/* Title Styles */
 .title {
     margin-bottom: 0.1rem;
     color: #333333; /* Set title color to dark gray */
@@ -10,7 +14,7 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: #ffffff; /* Changed to white */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for contrast */
     border-bottom: 2px dashed #333; /* Dashed border for sketch effect */
     position: fixed; /* Fixed position */
     width: 100%; /* Full width */
@@ -61,7 +65,7 @@ body {
 
 /* Navigation Styles */
 .nav {
-    background-color: #ffffff; /* Changed to white */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for contrast */
     border-top: 2px dashed #333; /* Dashed border for sketch effect */
 }
 
@@ -75,7 +79,7 @@ body {
     bottom: 0; /* Align to the bottom */
     left: 0; /* Align to the left */
     right: 0; /* Align to the right */
-    background-color: #ffffff; /* Changed to white */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for contrast */
     border-top: 2px dashed #333; /* Dashed border for sketch effect */
     z-index: 10; /* Stack above other elements */
 }
@@ -106,7 +110,7 @@ body {
 
 /* Library Section Styles */
 .library-section {
-    margin-top: 80px; /* Space below header */
+    margin-top: 20px; /* Space below header */
     padding: 1rem; /* Padding for main content */
 }
 
@@ -121,14 +125,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .gallery-item {
-    background-color: #ffffff; /* White background for items */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white for items */
     border: 2px dashed #333; /* Dashed border for sketch effect */
-    border-radius: 8px; /* Rounded corners */
-    margin: 10px; /* Space between items */
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px; /* Space between items */
     overflow: hidden; /* Hide overflow */
     width: 300px; /* Fixed width for items */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Light shadow */
@@ -161,7 +165,7 @@ body {
 }
 
 .video-item {
-    background-color: #ffffff; /* White background for video items */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white for video items */
     border: 2px dashed #333; /* Dashed border for sketch effect */
     border-radius: 8px; /* Rounded corners */
     overflow: hidden; /* Prevent overflow */
