@@ -107,7 +107,7 @@ body {
 /* Inbox Page Styles */
 .inbox-section {
     padding: 1rem; /* Padding for the section */
-    margin-top: 60px; /* Space for fixed header */
+    margin-top: 30px; /* Space for fixed header */
 }
 
 .section-title {
