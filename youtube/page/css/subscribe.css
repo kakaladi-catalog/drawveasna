@@ -104,7 +104,7 @@ body {
 /* Subscribe Page Styles */
 .subscribe-section {
     padding: 1rem; /* Padding for the section */
-    margin-top: 60px; /* Space for fixed header */
+    margin-top: 30px; /* Space for fixed header */
 }
 
 .section-title {
@@ -125,7 +125,7 @@ body {
     border: 2px dashed #333; /* Dashed border for sketch effect */
     border-radius: 5px; /* Rounded corners */
     overflow: hidden; /* Hide overflow */
-    width: 300px; /* Fixed width for items */
+    width: 100%; /* Fixed width for items */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
