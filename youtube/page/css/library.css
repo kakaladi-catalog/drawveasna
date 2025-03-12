@@ -79,7 +79,7 @@ body {
     bottom: 0; /* Align to the bottom */
     left: 0; /* Align to the left */
     right: 0; /* Align to the right */
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for contrast */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for contrast */
     border-top: 2px dashed #333; /* Dashed border for sketch effect */
     z-index: 10; /* Stack above other elements */
 }
