@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox - YouTube Clone</title>
+	<link rel="icon" href="https://freepnglogo.com/images/all_img/youtube-logo-a100.png" type="image/x-icon"/> <!-- Favicon link -->
+    <link rel="stylesheet" href="css/inbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img alt="YouTube Logo" class="logo" height="40" src="https://freepnglogo.com/images/all_img/youtube-logo-a100.png" width="40"/>
+                <span class="logo-text">Inbox</span>
+            </div>
+            <div class="icon-container">
+                <i class="fas fa-search icon"></i>
+                <i class="fas fa-bell icon"></i>
+                <img alt="User  Avatar" class="user-avatar" height="40" src="https://yt3.googleusercontent.com/CeIJhO56wktYccyy_2kUAdm8_YqZcQpoA69hwzttpqEyqXeBSCQ79vvrsEFdfrTE7BwsplhdSQ=s160-c-k-c0x00ffffff-no-rj" width="40"/>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="https://vvebpage.github.io/veasnapage/youtube/home.html">
+                    <i class="nav-icon fas fa-home"></i>
+                    <p class="nav-text">Home</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="trending.html">
+                    <i class="nav-icon fas fa-fire"></i>
+                    <p class="nav-text">Trending</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="subscriptions.html">
+                    <i class="nav-icon fas fa-play-circle"></i>
+                    <p class="nav-text">Subscriptions</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="inbox.html">
+                    <i class="nav-icon fas fa-envelope"></i>
+                    <p class="nav-text">Inbox</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="library.html">
+                    <i class="nav-icon fas fa-folder"></i>
+                    <p class="nav-text">gallery</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="inbox-section">
+        <h2 class="section-title">Inbox</h2>
+        <div class="message-list" id="message-list">
+            <!-- Message items will be dynamically inserted here -->
+        </div>
+		<h1 class="title">Inbox</h1>
+    </main>
+
+    <script src="js/inbox.js"></script>
+</body>
+</html>

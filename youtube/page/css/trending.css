@@ -1,0 +1,155 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a more casual font */
+    background-color: #ffffff; /* Changed to white for sketch style */
+}
+
+/* Title Styles */
+.title {
+    margin-bottom: 1rem;
+    color: #333333; /* Set title color to dark gray */
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffffff; /* Changed to white */
+    border-bottom: 2px dashed #333; /* Dashed border for sketch effect */
+    box-shadow: none; /* Remove shadow for a flatter look */
+    position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+    top: 0; /* Align to top */
+    z-index: 10; /* Stack above other elements */
+}
+
+.header-content {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    padding: 0.5rem 1rem; /* Padding for content */
+}
+
+.logo-container {
+    display: flex; /* Flexbox for logo and text */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    width: 2.5rem; /* Logo width */
+    height: 2.5rem; /* Logo height */
+    margin-right: 0.5rem; /* Space between logo and text */
+}
+
+.logo-text {
+    font-size: 1.25rem; /* Font size for logo text */
+    font-weight: bold; /* Bold text */
+    color: #333333; /* Dark gray for sketch style */
+}
+
+.icon-container {
+    display: flex; /* Flexbox for icons */
+    align-items: center; /* Center icons vertically */
+    color: #333333; /* Dark gray for icons */
+}
+
+.icon {
+    font-size: 1.5rem; /* Icon size */
+    margin-left: 1rem; /* Space between icons */
+}
+
+.user-avatar {
+    width: 2.5rem; /* Avatar width */
+    height: 2.5rem; /* Avatar height */
+    border-radius: 50%; /* Circular avatar */
+    margin-left: 1rem; /* Space between avatar and icons */
+}
+
+/* Navigation Styles */
+.nav {
+    background-color: #ffffff; /* Changed to white */
+    border-top: 2px dashed #333; /* Dashed border for sketch effect */
+    box-shadow: none; /* Remove shadow for a flatter look */
+}
+
+.nav-list {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    padding: 0.5rem 0; /* Vertical padding */
+    margin: 0; /* Remove default margin */
+    list-style-type: none; /* Remove bullet points */
+    position: fixed; /* Fix the position */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    background-color: #ffffff; /* Changed to white */
+    border-top: 2px dashed #333; /* Dashed border for sketch effect */
+    z-index: 10; /* Stack above other elements */
+}
+
+.nav-item {
+    text-align: center; /* Center text and icons */
+    flex: 1; /* Allow items to grow equally */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-icon {
+    font-size: 1.5rem; /* Increase icon size */
+    display: block; /* Make icon a block element */
+    margin-bottom: 0.25rem; /* Space between icon and text */
+    color: #333333; /* Dark gray for icons */
+}
+
+.nav-text {
+    font-size: 0.75rem; /* Smaller text for labels */
+    color: #333333; /* Dark gray for text */
+}
+
+/* Hover Effects */
+.nav-item:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    color: #333333; /* Dark gray text color on hover */
+}
+
+/* Video Section Styles */
+.video-section {
+    padding: 0.5rem 1rem; /* Padding for the section */
+}
+
+.video-item {
+    background-color: #ffffff; /* White background for video items */
+    border: 2px dashed #333; /* Dashed border for sketch effect */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevent overflow */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Light shadow for contrast */
+}
+
+.video-iframe {
+    width: 100%; /* Full width */
+    height: 12rem; /* Fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.video-info {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    padding: 0.5rem; /* Padding for video info */
+}
+
+.channel-avatar {
+    width: 2.5rem; /* Avatar width */
+    height: 2.5rem; /* Avatar height */
+    border-radius: 50%; /* Circular avatar */
+    margin-right: 0.5rem; /* Space between avatar and text */
+}
+
+.info-text {
+    margin-left: 0.5rem; /* Space between avatar and text */
+}
+
+.video-title {
+    font-size: 0.9rem; /* Slightly larger title */
+    font-weight: bold; /* Bold title */
+    color: #333333; /* Set video title color to dark gray */
+}
+
+.video-meta {
+    font-size: 0.75rem; /* Smaller text for meta info */
+    color: #666666; /* Medium gray color for meta info */
+}
